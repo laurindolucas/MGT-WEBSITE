@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MGT SERVICES</title>
+    <link rel="stylesheet" href="/css/services.css">
+    <link rel="stylesheet" href="flaticon.css">
+
+</head>
+
+<body>
+    <div id="navbar-container"></div>
+
+    <main class="main-services">
+        <div class="services-header">
+            <h1 class="services-title-header">Our services</h1>
+            <p class="services-description-header">We offer a wide range of services. And here, too, our motto applies:
+                Everything from a reliable source!</p>
+
+        </div>
+        <section class="services-section">
+            <div class="cards-services-conatiner">
+                <div class="model-card">
+                    <img src="/assets/servicesIMG/AirconditioningIMG.jpg" alt="" class="img-service"
+                        onclick="openServicePage(1); return false;">
+                    <h4 class="title-sevice"> Air conditioning systems </h4>
+                    <p class="description-sevice">We provide consulting, installation, and maintenance of air
+                        conditioning systems.
+                        Ensuring comfort in homes, businesses, and public institutions.
+                        Complete services in Mülheim an der Ruhr and surrounding areas.</p>
+                    <a href="servicesDetailsPage.html" class="view-sevice" id="view-sevice-link"
+                        onclick="openServicePage(1); return false;">View Service</a>
+                </div>
+                <div class="model-card">
+                    <img src="/assets/servicesIMG/heatingIMG.jpg" alt="" class="img-service"
+                        onclick="openServicePage(2); return false;">
+                    <h4 class="title-sevice">Construction and modernization of heating</h4>
+                    <p class="description-sevice">We provide consulting, installation, and maintenance of heating
+                        systems.
+                        Including boiler replacement, underfloor heating, hydraulic balancing, and repairs.
+                        Complete services in Mülheim an der Ruhr and surrounding areas.</p>
+                    <a href="http://" class="view-sevice" onclick="openServicePage(2); return false;">View Service</a>
+                </div>
+                <div class="model-card">
+                    <img src="/assets/servicesIMG/renewableIMG.jpg" alt="" class="img-service"
+                        onclick="openServicePage(3); return false;">
+                    <h4 class="title-sevice">Renewable energy / Regenerative energy</h4>
+                    <p class="description-sevice">We provide consulting, installation, and maintenance of renewable
+                        energy systems.
+                        Including photovoltaics, solar thermal, heat pumps, biomass, and CHP.
+                        Complete services in Mülheim an der Ruhr and surrounding areas.</p>
+
+
+
+                    <a href="http://" class="view-sevice" onclick="openServicePage(3); return false;">View Service</a>
+                </div>
+                <div class="model-card">
+                    <img src="/assets/servicesIMG/bathroomIMG.jpg" alt="" class="img-service"
+                        onclick="openServicePage(5); return false;">
+                    <h4 class="title-sevice">Bathroom construction and renovation</h4>
+                    <p class="description-sevice">We provide consulting, design & bathroom renovations.
+                        Modern, accessible, personalized solutions, incl. wellness. Tailored fit.
+                        Serving homes, businesses & institutions in Mülheim an der Ruhr and nearby areas.</p>
+
+                    <a href="http://" class="view-sevice" onclick="openServicePage(4); return false;">View Service</a>
+                </div>
+                <div class="model-card">
+                    <img src="/assets/servicesIMG/controlledIMG.jpg" alt="" class="img-service"
+                        onclick="openServicePage(4); return false;">
+                    <h4 class="title-sevice">Controlled residential ventilation / ventilation systems</h4>
+                    <p class="description-sevice">We provide consulting, installation, and maintenance of ventilation
+                        systems.
+                        Controlled residential ventilation for fresh air and comfort.
+                        Serving homes, businesses, and institutions in Mülheim an der Ruhr and nearby areas.</p>
+
+                    <a href="http://" class="view-sevice" onclick="openServicePage(5); return false;">View Service</a>
+                </div>
+                <div class="model-card">
+                    <img src="/assets/servicesIMG/drinkingIMG.jpg" alt="" class="img-service"
+                        onclick="openServicePage(6); return false;">
+                    <h4 class="title-sevice">Drinking water, rainwater and wastewater technology</h4>
+                    <p class="description-sevice">Consulting, installation, and maintenance of drinking, rain, and
+                        wastewater systems.
+                        Including rainwater harvesting, drainage, and water treatment.
+                        Serving homes, businesses, and institutions in Mülheim an der Ruhr.</p>
+                    <a href="http://" class="view-sevice" onclick="openServicePage(6); return false;">View Service</a>
+                </div>
+                <div class="model-card">
+                    <img src="/assets/servicesIMG/checksIMG.jpg" alt="" class="img-service"
+                        onclick="openServicePage(7); return false;">
+                    <h4 class="title-sevice">Checks and maintenance</h4>
+                    <p class="description-sevice">Consulting and maintenance to protect and preserve your systems.
+                        Includes gas, heating, water checks, leak detection, and pipe cleaning.
+                        Serving homes, businesses, and institutions in Mülheim an der Ruhr.</p>
+                    <a href="http://" class="view-sevice" onclick="openServicePage(7); return false;">View Service</a>
+                </div>
+                <div class="model-card">
+                    <img src="/assets/servicesIMG/commercialIMG.jpg" alt="" class="img-service"
+                        onclick="openServicePage(8); return false;">
+                    <h4 class="title-sevice">Commercial refrigeration technology</h4>
+                    <p class="description-sevice">Consulting, installation, and maintenance of commercial refrigeration
+                        systems.
+                        Includes piping, generators, and tailored solutions for safety and comfort.
+                        Serving businesses and institutions in Mülheim an der Ruhr and nearby areas.</p>
+                    <a href="http://" class="view-sevice" onclick="openServicePage(8); return false;">View Service</a>
+                </div>
+
+            </div>
+            <div id="service-panel" class="service-panel">
+                <div class="service-panel-content">
+                    <button class="close-panel" onclick="closeServicePanel()">×</button>
+                    <img src="" alt="" id="details-service-image">
+                    <h2 id="details-service-title">Service title</h2>
+                    <h4 id="details-service-subtitle"></h4>
+                    <p id="details-service-description">Service description will appear here...</p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Painel lateral -->
+
+    </main>
+
+
+    <div id="container-footer"></div>
+    <script src="/script.js"></script>
+</body>
+
+</html>

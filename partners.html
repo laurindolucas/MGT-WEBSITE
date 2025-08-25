@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MGT PARTNERS</title>
+    <link rel="stylesheet" href="/css/partners.css">
+</head>
+
+<body>
+    <div id="navbar-container"></div>
+
+    <div class="header-partners">
+        <h1 class="partners-title">Our partners</h1>
+        <p class="partners-description">You trust us. And we trust strong brands. Because only with quality and quality
+            products can we meet the high expectations of our customers towards us and our work. That is why we are
+            proud partners of the following brands.</p>
+    </div>
+
+    <div class="container-partners-page">
+        <div class="partners-card" onclick="openModel(1)">
+            <img src="/assets/4You-logo.jpg" alt="">
+        </div>
+        <div class="partners-card" onclick="openModel(2)">
+            <img src="/assets/bemm-logo.jpg" alt="">
+        </div>
+        <div class="partners-card" onclick="openModel(3)">
+            <img src="/assets/bette-logo.jpg" alt="">
+        </div>
+        <div class="partners-card" onclick="openModel(4)">
+            <img src="/assets/bosch-logo.jpg" alt="">
+        </div>
+        <div class="partners-card" onclick="openModel(5)">
+            <img src="/assets/burgbad-logo.jpg" alt="">
+        </div>
+        <div class="partners-card" onclick="openModel(6)">
+            <img src="/assets/daikin-logo.jpg" alt="">
+        </div>
+        <div class="partners-card" onclick="openModel(7)">
+            <img src="/assets/duravit-logo.jpg" alt="">
+        </div>
+        <div class="partners-card" onclick="openModel(8)">
+            <img src="/assets/geberit-logo.jpg" alt="">
+        </div>
+        <div class="partners-card" onclick="openModel(9)">
+            <img src="/assets/grohe-logo.jpg" alt="">
+        </div>
+        <div class="partners-card" onclick="openModel(10)">
+            <img src="/assets/grundfos-logo.jpg" alt="">
+        </div>
+        <div class="partners-card" onclick="openModel(11)">
+            <img src="/assets/hansa-logo.jpg" alt="">
+        </div>
+        <div class="partners-card" onclick="openModel(12)">
+            <img src="/assets/kaldewei-logo.jpg" alt="">
+        </div>
+        <div class="partners-card" onclick="openModel(13)">
+            <img src="/assets/laufen-logo.jpg" alt="">
+        </div>
+        <div class="partners-card" onclick="openModel(14)">
+            <img src="/assets/maico-logo.jpg" alt="">
+        </div>
+        <div class="partners-card" onclick="openModel(15)">
+            <img src="/assets/novelan-logo.jpg" alt="">
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Overlay e Modal -->
+    <div class="overlay" id="overlay">
+        <div class="model">
+            <button class="btn-voltar" onclick="closeModel()">Voltar</button>
+            <div class="model-main">
+                <div class="model-aside">
+                    <img src="" alt="" id="model-image" class="model-image">
+                    <button class="btn-vist-site" id="btn-vist-site" onclick="openModel(id)">visit partner website</button>
+                </div>
+                <div class="model-info">
+                    <h2 id="model-title" class="model-title"></h2>
+                    <p id="model-description" class="model-description"></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="container-footer"></div>
+
+    <script src="/script.js"></script>
+
+</body>
+
+</html>
