@@ -120,17 +120,14 @@ body {
     color: #333;
 }
 
-/* Painel lateral (hidden por padrão) */
 .service-panel {
     display: none;
-    /* escondido por padrão */
     background: #fff;
     border-radius: 20px;
     box-shadow: 0 13px 20px rgba(0, 0, 0, 0.2);
     padding: 20px;
     overflow-y: auto;
     grid-column: 2 / 3;
-    /* ocupa segunda coluna */
     transition: all 0.4s ease;
     height: 1500px;
 }
@@ -142,20 +139,16 @@ body {
 
 .services-section.panel-open {
     grid-template-columns: 1fr 2fr;
-    /* cards = 1 coluna menor, painel = 2x maior */
 }
 
 .services-section.panel-open .cards-services-conatiner {
     grid-column: 1 / 2;
-    /* cards na primeira coluna */
     grid-template-columns: 1fr;
-    /* 1 card por linha */
     height: 1500px;
 }
 
 .services-section.panel-open .service-panel {
     grid-column: 2 / 3;
-    /* painel ocupa a segunda coluna */
 }
 
 .service-panel-content {
@@ -206,4 +199,29 @@ body {
     font-size: 1rem;
     line-height: 1.5;
     color: #333;
+}
+
+.btn-talk-site {
+    padding: 12px 25px;
+    border: none;
+    background: rgb(83, 83, 83);
+    color: #ffffff;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    margin-top: 40px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.438);
+
+
+}
+
+.btn-talk-site:hover {
+    background: #d80000;
+    color: white;
+    transform: scale(1.05);
 }

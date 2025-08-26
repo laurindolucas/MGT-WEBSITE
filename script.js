@@ -150,60 +150,59 @@ function openServicePage(id) {
     const subtitle = document.getElementById("details-service-subtitle");
     const description = document.getElementById("details-service-description");
 
-    // Exemplo de dados (pode vir de API, JSON ou até dataset dos cards)
+    
     const services = {
         1: {
             title: "Air conditioning systems",
-            subtitle: "Cooling and climate control",
-            description: "We provide installation, repair, and maintenance of air conditioning systems for homes and businesses.",
+          subtitle: "Cooling and climate control",
+            description: "Comfort within your living or working space depends greatly on the indoor climate and atmosphere, where temperature and humidity play an essential role. Choosing the right air conditioning system ensures not only a pleasant environment but also efficiency and long-term reliability. Our team provides expert consultation to help you select the most suitable solution, followed by professional installation tailored to your specific needs. Beyond installation, we also offer comprehensive maintenance and service to keep your system performing at its best year after year. Whether for private homes, commercial properties, or public institutions, our expertise in advanced air conditioning technology guarantees an optimal indoor climate, combining comfort, efficiency, and innovation.",
             image: "/assets/servicesIMG/AirconditioningIMG.jpg"
         },
         2: {
             title: "Construction and modernization of heating",
-            subtitle: "Heating solutions",
-            description: "Efficient and modern heating systems to keep your environment comfortable.",
+             subtitle: "Efficient and reliable heating solutions",
+            description: "We are recognized as professional heating system installers, delivering solutions that combine technical precision, reliability, and exceptional service. Beyond offering trusted and competent consultation, we carry out every project with professionalism and a deep understanding of your individual needs. From guiding you through the process of selecting the most suitable heating system for your building, to presenting and installing complete solutions tailored to your requirements, our focus is always on comfort, efficiency, and long-term value. Our expertise covers the full spectrum of heating services, including underfloor heating, advanced heating systems, hydraulic balancing, and modern boiler replacements, as well as the integration of stoves and fireplaces for both functionality and atmosphere. In addition to planning and installation, we also provide comprehensive maintenance and repair services, ensuring the reliability and performance of your system over time. Whether for private residences or commercial and public facilities, our team is dedicated to delivering heating solutions that merge innovation, durability, and premium quality.",
             image: "/assets/servicesIMG/heatingIMG.jpg"
         },
         3: {
             title: "Renewable energy",
-            subtitle: "Sustainable solutions",
-            description: "We implement solar, wind, and other renewable energy solutions to reduce costs and protect the planet.",
+            subtitle: "Innovative and sustainable energy systems",
+            description: "For those seeking comprehensive, clear, and expert guidance on the use of renewable energy, we provide tailored advice and professional implementation designed to meet your individual needs. Our team takes the time to explain the available options in detail, helping you understand how to effectively reduce utility costs while choosing the energy system best suited to your lifestyle and long-term goals. We also assist with evaluating eligibility for government subsidies, ensuring you benefit from all available advantages when transitioning to sustainable solutions. Our expertise spans modern renewable energy sources, from heat pumps and thermal solar systems to photovoltaic technology, biomass, wood pellet heating, and combined heat and power systems. In addition to precise planning and professional installation, you can rely on us for ongoing maintenance, technical support, and reliable repair services. Whether for private households, businesses, or public institutions, we are committed to delivering renewable energy solutions that combine innovation, efficiency, and sustainability — creating real value for both you and the environment.We implement solar, wind, and other renewable energy solutions to reduce costs and protect the planet.",
             image: "/assets/servicesIMG/renewableIMG.jpg"
         },
         4: {
             title: "Controlled residential ventilation / ventilation systems",
-            subtitle: "Sustainable solutions",
-            description: "We implement solar, wind, and other renewable energy solutions to reduce costs and protect the planet.",
+           subtitle: "Healthy indoor air and energy efficiency",
+            description: "Ensuring high-quality indoor air is essential for comfort, health, and the long-term value of your property. We specialize in controlled residential ventilation, offering comprehensive solutions that enhance air quality while optimizing energy efficiency. Our services cover the entire process, from careful planning and professional installation in new constructions and existing buildings to ongoing maintenance and system optimization. We provide expert guidance tailored to your specific needs, helping you choose the right system and ensuring it operates efficiently year-round. Our team focuses on delivering solutions that not only improve comfort and well-being but also contribute to sustainability and the longevity of your building. Whether for private residences or commercial facilities, we ensure that your ventilation system provides a safe, clean, and comfortable environment, with professional support every step of the way.",
             image: "/assets/servicesIMG/controlledIMG.jpg"
         },
         5: {
             title: "Bathroom construction and renovation",
-            subtitle: "Sustainable solutions",
-            description: "We implement solar, wind, and other renewable energy solutions to reduce costs and protect the planet.",
+             subtitle: "Exclusive and tailor-made bathroom design",
+            description: "Whether you are building a completely new bathroom, renovating an existing one, or seeking a modern upgrade, we provide a comprehensive service that combines technical expertise, refined design, and absolute exclusivity. Our work goes far beyond plumbing: we craft contemporary, tailor-made bathrooms that harmoniously reflect your lifestyle and seamlessly integrate into your home. Through detailed consultation, we guide you at every stage — from planning to execution — delivering transparent, personalized solutions that merge functionality, comfort, and timeless elegance. With expertise in new bathroom projects, full-scale renovations, subtle modernizations, and accessible design adaptations, we ensure results that embody both practicality and sophistication. We also specialize in wellness bathrooms, transforming your space into a true private spa, and provide high-quality sanitary installations for commercial and public facilities, always with the same dedication to detail, durability, and premium finish. Every project is carried out with excellence, so your bathroom becomes not just a functional space, but an experience of comfort, style, and luxury.",
             image: "/assets/servicesIMG/bathroomIMG.jpg"
         },
         6: {
             title: "Drinking water, rainwater and wastewater technology",
-            subtitle: "Sustainable solutions",
-            description: "We implement solar, wind, and other renewable energy solutions to reduce costs and protect the planet.",
+           subtitle: "Comprehensive water management solutions",
+            description: "Water is life’s most essential resource, forming the foundation of our daily routines and well-being. From drinking and cooking to bathing, washing, and the use of household appliances, every aspect of modern living depends on a reliable water system. We ensure that everything in your home flows smoothly, functions flawlessly, and meets the highest standards of cleanliness and efficiency. Our expertise covers the full spectrum of water management, including the installation of drinking water systems, building drainage and wastewater solutions, rainwater harvesting, as well as water treatment and softening. Beyond private households, we also provide tailored solutions for commercial and public facilities, always combining technical precision with long-lasting reliability. With professional planning, expert execution, and dedicated maintenance, we create systems that guarantee safety, sustainability, and comfort in every drop.",
             image: "/assets/servicesIMG/drinkingIMG.jpg"
         },
         7: {
             title: "Checks and maintenance",
-            subtitle: "Sustainable solutions",
-            description: "We implement solar, wind, and other renewable energy solutions to reduce costs and protect the planet.",
+              subtitle: "Proactive care and long-term reliability",
+            description: "Protecting and preserving your investment over the long term begins with regular system inspections. Proactive maintenance not only increases safety but also helps identify potential savings and conserve valuable resources. By detecting defects early, costly repairs can be avoided, ensuring greater reliability and peace of mind. Working in partnership with leading manufacturers, we provide professional inspections and maintenance across a wide range of systems. Our expertise includes gas checks, heating tests, potable water inspections, leak detection, and pipe cleaning, as well as water damage repair and building drying services. Every service is carried out with precision and care, ensuring that your systems operate efficiently, sustainably, and without interruption.",
             image: "/assets/servicesIMG/checksIMG.jpg"
         },
         8: {
             title: "Commercial refrigeration technology",
-            subtitle: "Sustainable solutions",
-            description: "We implement solar, wind, and other renewable energy solutions to reduce costs and protect the planet.",
+            subtitle: "Customized cooling and preservation solutions",
+            description: "Rely on our expertise in protection and safety technology to keep your systems running reliably around the clock. We design customized refrigeration solutions tailored to your specific requirements, ensuring consistent comfort, safety, and the long-term preservation of your assets. Our services cover every aspect of commercial refrigeration, from system planning and installation to piping, refrigeration units, and generators, as well as comprehensive maintenance to guarantee efficiency and durability. Whether for commercial facilities or public institutions, we deliver professional solutions that combine precision, reliability, and long-term value.",
             image: "/assets/servicesIMG/commercialIMG.jpg"
         }
        
     };
 
-    // Atualiza conteúdo do painel
     if (services[id]) {
         image.src = services[id].image;
         title.textContent = services[id].title;
@@ -211,7 +210,6 @@ function openServicePage(id) {
         description.textContent = services[id].description;
     }
 
-    // Abre o painel
     panel.classList.add("open");
     document.querySelector(".services-section").classList.add("panel-open");
 }
