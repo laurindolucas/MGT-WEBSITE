@@ -219,3 +219,7 @@ function closeServicePanel() {
     panel.classList.remove("open");
     document.querySelector(".services-section").classList.remove("panel-open");
 }
+
+function toggleMenu() {
+  document.querySelector(".nav-links").classList.toggle("show");
+}

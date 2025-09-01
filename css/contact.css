@@ -126,3 +126,118 @@
     margin: 10px;
 
 }
+.description-card-loc{
+    text-align: center;
+}
+/* ====== RESPONSIVIDADE ====== */
+
+/* Tablets (até 1024px) */
+@media (max-width: 1024px) {
+    .form-container {
+        width: 90%;
+        height: auto;
+        padding: 30px 20px;
+    }
+
+    #container-form {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .cards-contact {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .card {
+        width: 280px;
+        height: 180px;
+    }
+
+    .map-form {
+        height: 250px;
+    }
+}
+
+/* Smartphones grandes (até 768px) */
+@media (max-width: 768px) {
+    .contact-title {
+        font-size: 35px;
+    }
+
+    .form-container {
+        width: 95%;
+        border-radius: 30px;
+    }
+
+    .form-input {
+        height: 50px;
+        border-radius: 20px;
+    }
+
+    #conact-message {
+        height: 180px;
+    }
+
+    .cards-contact {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        max-width: 350px;
+        height: 160px;
+        border-radius: 30px;
+    }
+
+    .map-form {
+        height: 220px;
+    }
+}
+
+/* Smartphones pequenos (até 480px) */
+@media (max-width: 480px) {
+    .contact-title {
+        font-size: 28px;
+    }
+
+    .form-container {
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .form-input {
+        height: 45px;
+        font-size: 14px;
+    }
+
+    #conact-message {
+        height: 150px;
+        font-size: 14px;
+    }
+
+    .form-btn {
+        width: 100%;
+        height: 45px;
+        font-size: 16px;
+        border-radius: 15px;
+    }
+
+    .card {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    #card-icon {
+        font-size: 30px;
+    }
+
+    .map-form {
+        height: 200px;
+        border-radius: 20px;
+    }
+}

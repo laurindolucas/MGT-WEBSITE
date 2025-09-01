@@ -72,3 +72,91 @@ footer {
     border-radius: 20px;
 
 }
+/* ===== Responsividade ===== */
+
+/* Telas médias - tablets (até 1024px) */
+@media (max-width: 1024px) {
+    .footer-container {
+        gap: 30px;
+        padding: 0 20px;
+    }
+
+    .logo-footer {
+        margin-left: 20px;
+        max-width: 180px;
+    }
+
+    .quick-access-container, 
+    .contact-footer, 
+    .map-footer-container {
+        width: 280px;
+    }
+
+    #slogan-footer {
+        margin-left: 20px;
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+/* Telas pequenas - celulares (até 768px) */
+@media (max-width: 768px) {
+    footer {
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        border: none;
+    }
+
+    .logo-footer {
+        margin: 0 auto;
+    }
+
+    .contact-footer,
+    .quick-access-container,
+    .map-footer-container {
+        width: 100%;
+        max-width: 350px;
+        text-align: center;
+    }
+
+    .quick-access-link {
+        font-size: 18px;
+    }
+
+    #slogan-footer {
+        margin: 10px 0;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .cop-footer {
+        font-size: 14px;
+    }
+}
+
+/* Telas muito pequenas (até 480px) */
+@media (max-width: 480px) {
+    .quick-access-link {
+        font-size: 16px;
+    }
+
+    .contact-footer,
+    .quick-access-container {
+        row-gap: 10px;
+    }
+
+    .map-footer-container {
+        height: 180px;
+    }
+
+    #slogan-footer {
+        font-size: 14px;
+    }
+}

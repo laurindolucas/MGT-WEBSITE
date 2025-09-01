@@ -22,6 +22,13 @@
     z-index: 1000;
 }
 
+.hamburger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+
 #nav-logo {
     width: 70px;
 }
@@ -31,7 +38,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 40px;
-    
+
 }
 
 .link-nav {
@@ -44,4 +51,83 @@
 
 .link-nav:hover {
     color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    .nav-bar {
+      top: 10px;
+      right: 10px;
+        width: 10%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        z-index: 1000;
+        position: fixed;
+        background: none;
+         padding: 10px;
+        border-radius: 50px;
+        margin-left: 200px;
+    }
+
+    .hamburger {
+        display: block;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: 200px;
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.774);
+        backdrop-filter: blur(10px);
+        border-radius: 20px 0 0 20px;
+        border: none;
+        padding: 30px 20px;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+    }
+
+    .nav-links a {
+        font-size: 22px;
+        font-weight: 600;
+        color: #000000;
+        display: block;
+        text-align: center;
+        transition: color 0.3s, transform 0.3s;
+    }
+
+    .nav-links a:hover {
+        color: #b11e04;
+        transform: scale(1.05);
+    }
+
+    .nav-links #nav-logo {
+        width: 120px;
+
+        display: block;
+    }
+
+    .nav-links.show {
+        display: flex;
+        animation: slideIn 0.3s ease forwards;
+    }
+}
+
+/* 🔹 Animação lateral */
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
