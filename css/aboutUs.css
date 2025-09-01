@@ -11,7 +11,7 @@
 
 .section1-aboutUs {
     min-height: 100vh;
-    background: #0f0f0f;
+  background: hsl(0, 0%, 98%);
 }
 
 
@@ -56,6 +56,94 @@
     grid-template-columns: 1fr;
     gap: 60px;
     align-items: center;
+}
+.call{
+    min-height: 60vh;
+    background: linear-gradient(45deg, #8a0000, #bd0202);
+
+}
+
+.container-call{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+.cards-title {
+    padding-top: 40px;
+    font-size: 60px;
+    text-align: center;
+}
+.cards-description{
+    color: white;
+    font-size: 20px;
+    width: 40%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.cards-title span {
+    color: #ffffff;
+}
+.cards-container-call{
+    display: flex;
+    gap: 20px;
+    padding-top: 30px;
+}
+.call-box{
+    width: 350px;
+    height: 200px;
+    border-radius: 20px;
+    border: 1px solid#7e7a7a9c;
+    background-color: #ffffff2d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+.call-box i {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.call-box p {
+    text-align: center;
+}
+.call-button{
+    padding-top: 30px;
+   display: flex;
+   gap: 10px;
+}
+
+.btn-contact{
+ background-color: #1a1a1a;
+ color: white;
+ width: 250px;
+ height: 60px;
+ border-radius: 10px;
+ border: none;
+ font-size: 20px;
+ transition:  ease-in 0.3s;
+ cursor: pointer;
+}
+.btn-services{
+background-color: #ffffff;
+color: #1a1a1a;
+ width: 250px;
+ height: 60px;
+  border-radius: 10px;
+ border: none;
+  font-size: 20px;
+   transition:  ease-in 0.3s;
+   cursor: pointer;
+}
+
+.btn-contact:hover , .btn-services:hover{
+    background-color: #ff3636;
+color: #ffffff;
+transform: scale(1.04);
 }
 
 @media (min-width: 1024px) {
