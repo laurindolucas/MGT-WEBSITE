@@ -145,6 +145,84 @@ color: #1a1a1a;
 color: #ffffff;
 transform: scale(1.04);
 }
+/* ================= Responsividade ================= */
+@media (max-width: 1024px) {
+  .cards-title {
+    font-size: 45px;
+  }
+
+  .cards-description {
+    width: 60%;
+    font-size: 18px;
+  }
+
+  .call-box {
+    width: 300px;
+    height: 180px;
+  }
+
+  .btn-contact,
+  .btn-services {
+    width: 200px;
+    height: 55px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cards-title {
+    font-size: 35px;
+    padding-top: 20px;
+  }
+
+  .cards-description {
+    width: 80%;
+    font-size: 16px;
+  }
+
+  .cards-container-call {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .call-box {
+    width: 90%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .call-button {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn-contact,
+  .btn-services {
+    width: 80%;
+    height: 50px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cards-title {
+    font-size: 28px;
+  }
+
+  .cards-description {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .btn-contact,
+  .btn-services {
+    width: 350px;
+    font-size: 14px;
+    height: 45px;
+    padding-bottom: 30px;
+  }
+}
 
 @media (min-width: 1024px) {
     .trust-content {
