@@ -20,105 +20,105 @@ const parceiros = [
     id: 1,
     imagem: "/assets/4You-logo.jpg",
     nome: "4YOU",
-    descricao: "4YOU combines lasting quality with impeccable aesthetics to transform your bathroom into a true space of well-being. More than just a room, it becomes part of an open and welcoming environment, perfect for moments of relaxation or renewal. With a variety of designs, functions, and finishes, 4YOU offers options ranging from practical to sophisticated, allowing you to personalize every detail and create a unique space that reflects your personality and brings comfort every day.",
+    descricao: "4YOU verbindet langlebige Qualität mit makelloser Ästhetik, um Ihr Badezimmer in einen wahren Wohlfühlraum zu verwandeln. Mehr als nur ein Raum wird es Teil einer offenen und einladenden Umgebung, perfekt für Momente der Entspannung oder Erneuerung. Mit einer Vielzahl von Designs, Funktionen und Oberflächen bietet 4YOU Optionen von praktisch bis anspruchsvoll, sodass Sie jedes Detail personalisieren und einen einzigartigen Raum schaffen können, der Ihre Persönlichkeit widerspiegelt und täglich Komfort bietet.",
     site: "https://parceiro1.com"
   },
   {
     id: 2,
     imagem: "/assets/bemm-logo.jpg",
     nome: "BEMM",
-    descricao: "Since 1979, BEMM has been delivering innovative bathroom and room heaters, combining design, efficiency, and quality. Specializing in radiators for heat pumps and low-temperature systems, the company ensures comfort and sustainable performance in new projects, renovations, and commercial applications.",
+    descricao: "Seit 1979 liefert BEMM innovative Heizlösungen für Badezimmer und Wohnräume und verbindet dabei Design, Effizienz und Qualität. Spezialisiert auf Heizkörper für Wärmepumpen und Niedertemperatursysteme sorgt das Unternehmen für Komfort und nachhaltige Leistung in Neubauten, Renovierungen und gewerblichen Anwendungen.",
     site: "https://parceiro2.com"
   },
   {
     id: 3,
     imagem: "/assets/bette-logo.jpg",
     nome: "BETTE",
-    descricao: "The German family-owned company Bette specializes in bathroom elements made from enamelled titanium steel, including bathtubs, shower surfaces, shower trays, and basins. We are your trusted Bette partner in Mülheim an der Ruhr and the surrounding region, delivering quality, durability, and sophisticated design.",
+    descricao: "Das deutsche Familienunternehmen Bette spezialisiert sich auf Badelemente aus emailliertem Titanstahl, darunter Badewannen, Duschflächen, Duschwannen und Waschbecken. Wir sind Ihr vertrauensvoller Bette-Partner in Mülheim an der Ruhr und Umgebung und bieten Qualität, Langlebigkeit und anspruchsvolles Design.",
     site: "https://parceiro2.com"
   },
   {
     id: 4,
     imagem: "/assets/bosch-logo.jpg",
     nome: "BOSCH",
-    descricao: "Bosch is a benchmark in cutting-edge technology, intelligent heating solutions, and superior quality. For over 100 years, it has ensured warm and comfortable homes with reliable, user-friendly, and sustainable appliances. Committed to the transition to clean energy, Bosch supports climate goals and promotes eco-friendly projects for a greener future in Germany.",
+    descricao: "Bosch ist ein Maßstab für Spitzentechnologie, intelligente Heizlösungen und höchste Qualität. Seit über 100 Jahren sorgt das Unternehmen für warme und komfortable Häuser mit zuverlässigen, benutzerfreundlichen und nachhaltigen Geräten. Bosch engagiert sich für die Energiewende, unterstützt Klimaziele und fördert umweltfreundliche Projekte für eine grünere Zukunft in Deutschland.",
     site: "https://parceiro2.com"
   },
   {
     id: 5,
     imagem: "/assets/burgbad-logo.jpg",
     nome: "burgbad",
-    descricao: "Bathroom furniture in its most elegant form. Looking for inspiration for your dream bathroom? We are your specialist burgbad partner in Mülheim an der Ruhr. With burgbad’s wide selection of vanities and bathroom furniture, you will find exactly what you need to create a unique and personalized space. No matter the size of your bathroom, burgbad offers custom-made furniture designed to meet your wishes.",
+    descricao: "Badezimmermöbel in ihrer elegantesten Form. Auf der Suche nach Inspiration für Ihr Traumbadezimmer? Wir sind Ihr spezialisierter burgbad-Partner in Mülheim an der Ruhr. Mit der großen Auswahl an Waschtischen und Möbeln von burgbad finden Sie genau das Richtige, um einen einzigartigen, persönlichen Raum zu gestalten. Unabhängig von der Größe Ihres Badezimmers bietet burgbad maßgefertigte Möbel, die auf Ihre Wünsche zugeschnitten sind.",
     site: "https://parceiro2.com"
   },
   {
     id: 6,
     imagem: "/assets/daikin-logo.jpg",
     nome: "DAIKIN",
-    descricao: "With cutting-edge technologies, Daikin has been delivering comfort and convenience in heating and cooling for over 90 years. A global leader in air conditioning technology and the top seller of heat pumps in Europe, the brand is committed to sustainability without compromising quality. Energy efficiency, alternative refrigerants, and eco-friendly production processes are at the core of its environmental strategy, with a clear focus on long-term climate protection. Create your ideal indoor climate while saving energy and money with Daikin’s efficient solutions.",
+    descricao: "Mit modernster Technologie liefert Daikin seit über 90 Jahren Komfort und Bequemlichkeit in Heizung und Kühlung. Als weltweit führender Anbieter von Klimaanlagen und meistverkaufte Marke für Wärmepumpen in Europa setzt das Unternehmen auf Nachhaltigkeit ohne Kompromisse bei der Qualität. Energieeffizienz, alternative Kältemittel und umweltfreundliche Produktionsprozesse stehen im Mittelpunkt der Strategie, mit klarem Fokus auf langfristigen Klimaschutz. Schaffen Sie Ihr ideales Raumklima und sparen Sie Energie und Geld mit Daikins effizienten Lösungen.",
     site: "https://parceiro2.com"
   },
   {
     id: 7,
     imagem: "/assets/duravit-logo.jpg",
     nome: "Duravit",
-    descricao: "Founded in 1817 in Hornberg, in the Black Forest, Duravit AG is now one of the leading international manufacturers of designer bathrooms. Present in over 130 countries, the company stands out for original design, comfort-enhancing technology, and superior quality. In collaboration with renowned designers such as Philippe Starck, EOOS, Phoenix Design, Sieger Design, Kurt Merki Jr., Christian Werner, Matteo Thun, and Cecilie Manz, Duravit creates exclusive bathrooms that sustainably enhance quality of life.",
+    descricao: "Gegründet 1817 in Hornberg im Schwarzwald, ist Duravit AG heute einer der führenden internationalen Hersteller von Designerbädern. In über 130 Ländern vertreten, zeichnet sich das Unternehmen durch originelles Design, komfortsteigernde Technologie und höchste Qualität aus. In Zusammenarbeit mit renommierten Designern wie Philippe Starck, EOOS, Phoenix Design, Sieger Design, Kurt Merki Jr., Christian Werner, Matteo Thun und Cecilie Manz schafft Duravit exklusive Bäder, die die Lebensqualität nachhaltig verbessern.",
     site: "https://parceiro2.com"
   },
   {
     id: 8,
     imagem: "/assets/geberit-logo.jpg",
     nome: "Geberit",
-    descricao: "The Geberit Group, the European market leader in sanitary products, operates globally with a strong local presence in most European countries, delivering high-value solutions in sanitary technology and bathroom ceramics. With 26 production facilities, including four abroad, and headquartered in Rapperswil-Jona, Switzerland, the company employs around 12,000 people in 50 countries. In 2021, Geberit recorded net sales of CHF 3.5 billion. Geberit shares are listed on the SIX Swiss Exchange and have been part of the SMI (Swiss Market Index) since 2012.",
+    descricao: "Die Geberit Gruppe, europäischer Marktführer für Sanitärprodukte, ist weltweit tätig und in den meisten europäischen Ländern stark vertreten. Sie liefert hochwertige Lösungen in der Sanitärtechnik und Keramik für Badezimmer. Mit 26 Produktionsstätten, darunter vier im Ausland, und Hauptsitz in Rapperswil-Jona, Schweiz, beschäftigt das Unternehmen rund 12.000 Mitarbeiter in 50 Ländern. Im Jahr 2021 erzielte Geberit einen Nettoumsatz von 3,5 Milliarden CHF. Die Geberit-Aktien sind an der SIX Swiss Exchange notiert und seit 2012 Teil des SMI (Swiss Market Index).",
     site: "https://parceiro2.com"
   },
   {
     id: 9,
     imagem: "/assets/grohe-logo.jpg",
     nome: "GROHE",
-    descricao: "Effortless harmonious bathroom design: GROHE Cubeo and the new Euro Ceramic make the perfect combination. The Rainshower Aqua Pure shower system turns your bathroom into a true oasis, offering extensive customization and style. Tailored luxury: the GROHE Allure Gravity faucet collection redefines individuality and exclusive design.",
+    descricao: "Mühelose, harmonische Badgestaltung: GROHE Cubeo und die neue Euro Ceramic bilden die perfekte Kombination. Das Duschsystem Rainshower Aqua Pure verwandelt Ihr Badezimmer in eine wahre Oase und bietet umfassende Individualisierungsmöglichkeiten und Stil. Maßgeschneiderter Luxus: Die Armaturen-Kollektion GROHE Allure Gravity definiert Individualität und exklusives Design neu.",
     site: "https://parceiro2.com"
   },
   {
     id: 10,
     imagem: "/assets/grundfos-logo.jpg",
     nome: "GRUNDFOS",
-    descricao: "GRUNDFOS provides some of the world’s most efficient pumps, ensuring comfort and sustainability in homes. The company develops solutions for heating, HVAC, hot water, pressurization, drainage, and wastewater. With over 19,000 employees, it produces and markets millions of pumps annually, combining innovation, responsibility, and environmental care.",
+    descricao: "GRUNDFOS bietet einige der effizientesten Pumpen der Welt und sorgt für Komfort und Nachhaltigkeit in Wohnräumen. Das Unternehmen entwickelt Lösungen für Heizung, HLK, Warmwasser, Drucksysteme, Entwässerung und Abwasser. Mit über 19.000 Mitarbeitern produziert und vermarktet es jährlich Millionen von Pumpen und verbindet Innovation, Verantwortung und Umweltbewusstsein.",
     site: "https://parceiro2.com"
   },
   {
     id: 11,
     imagem: "/assets/hansa-logo.jpg",
     nome: "HANSA",
-    descricao: "Hansa Armaturen GmbH specializes in innovative, high-quality sanitary fittings for bathrooms and kitchens.Headquartered in Stuttgart, the company has a tradition of over a hundred years, synonymous with superior quality. Its products combine functionality, durability, and exclusive design, meeting the needs of customers seeking excellence in every detail. Hansa continues to innovate, providing modern solutions that blend technology, comfort, and aesthetics.",
+    descricao: "Die Hansa Armaturen GmbH ist spezialisiert auf innovative, hochwertige Sanitärarmaturen für Badezimmer und Küchen. Mit Sitz in Stuttgart blickt das Unternehmen auf eine über hundertjährige Tradition und höchste Qualität zurück. Die Produkte verbinden Funktionalität, Langlebigkeit und exklusives Design und erfüllen die Ansprüche von Kunden, die Exzellenz in jedem Detail suchen. Hansa setzt weiterhin auf Innovation und bietet moderne Lösungen, die Technik, Komfort und Ästhetik vereinen.",
     site: "https://parceiro2.com"
   },
   {
     id: 12,
     imagem: "/assets/kaldewei-logo.jpg",
     nome: "KALDEWEI",
-    descricao: "KALDEWEI is a German family-owned company with over 100 years of tradition in bathroom solutions, combining modern luxury and sustainability. Its portfolio includes bathtubs, shower surfaces, and washbasins made from premium steel enamel, offering elegant design, durability, and 100% circularity. In 2021, it launched the KALDEWEI Limited Edition Nature Protect, made from low-CO2 steel, helping to reduce the carbon footprint. The company also supports the WWF Marine Conservation Program, committed to the environment and future generations.",
+    descricao: "KALDEWEI ist ein deutsches Familienunternehmen mit über 100 Jahren Tradition in Badlösungen, das modernen Luxus mit Nachhaltigkeit kombiniert. Das Portfolio umfasst Badewannen, Duschflächen und Waschbecken aus hochwertigem Stahl-Emaille und bietet elegantes Design, Langlebigkeit und 100 % Kreislauffähigkeit. 2021 wurde die KALDEWEI Limited Edition Nature Protect aus CO₂-armen Stahl eingeführt, um den CO₂-Fußabdruck zu reduzieren. Das Unternehmen unterstützt zudem das WWF Marine Conservation Program und engagiert sich für Umwelt und kommende Generationen.",
     site: "https://parceiro2.com"
   },
   {
     id: 13,
     imagem: "/assets/laufen-logo.jpg",
     nome: "LAUFEN",
-    descricao: "Since 1892, Swiss manufacturer LAUFEN has been creating bathroom worlds that nurture body and soul. With a long tradition of high-quality craftsmanship, the company fosters a holistic bathroom culture focused on sustainability, excellent design, innovation, and technology. LAUFEN views the bathroom as a living space, offering comprehensive solutions including ceramics, fittings, bathtubs, shower trays, furniture, mirrors, and installation systems, all with innovative, unique, and captivating aesthetics.",
+    descricao: "Seit 1892 schafft der Schweizer Hersteller LAUFEN Badezimmerwelten, die Körper und Seele nähren. Mit langer Tradition in hochwertigem Handwerk fördert das Unternehmen eine ganzheitliche Badkultur, die auf Nachhaltigkeit, exzellentes Design, Innovation und Technik setzt. Das Badezimmer wird als Lebensraum betrachtet, mit umfassenden Lösungen wie Keramik, Armaturen, Badewannen, Duschwannen, Möbeln, Spiegeln und Installationssystemen, alle mit innovativer, einzigartiger und ansprechender Ästhetik.",
     site: "https://parceiro2.com"
   },
   {
     id: 14,
     imagem: "/assets/maico-logo.jpg",
     nome: "MAICO",
-    descricao: "MAICO provides a wide range of high-quality ventilation solutions for various applications. As a specialist in modern solutions, MAICO offers everything from small residential bathroom fans to complex systems for multi-story buildings. It also provides controlled ventilation with heat recovery, industrial solutions, explosion-proof fans, and new air filtration units to remove viruses and bacteria in public spaces. MAICO delivers a professional solution for every need.",
+    descricao: "MAICO bietet ein breites Spektrum hochwertiger Lüftungslösungen für unterschiedliche Anwendungen. Als Spezialist für moderne Lösungen reicht das Angebot von kleinen Wohnbad-Lüftern bis hin zu komplexen Systemen für mehrstöckige Gebäude. Zudem werden kontrollierte Lüftung mit Wärmerückgewinnung, industrielle Lösungen, explosionsgeschützte Ventilatoren und neue Luftfiltergeräte zur Entfernung von Viren und Bakterien in öffentlichen Räumen angeboten. MAICO liefert für jede Anforderung eine professionelle Lösung.",
     site: "https://parceiro3.com"
   },
   {
     id: 15,
     imagem: "/assets/novelan-logo.jpg",
     nome: "NOVELAN",
-    descricao: "NOVELAN's mission is to make access to heat pumps sustainable, simple, and efficient, providing a clear range of products and systems tailored to each project’s needs. The company focuses on ensuring efficiency at every stage, from selecting the right solution and delivering it quickly to practical installation and smooth, intuitive operation. In doing so, NOVELAN aims to offer comfort, energy savings, and reliable solutions for its customers.",
+    descricao: "Die Mission von NOVELAN ist es, den Zugang zu Wärmepumpen nachhaltig, einfach und effizient zu gestalten und eine klare Produktpalette sowie Systeme bereitzustellen, die auf die Bedürfnisse jedes Projekts zugeschnitten sind. Das Unternehmen legt Wert auf Effizienz in jeder Phase – von der Auswahl der passenden Lösung über schnelle Lieferung bis hin zur praktischen Installation und intuitiven Nutzung. So bietet NOVELAN Komfort, Energieeinsparung und verlässliche Lösungen für seine Kunden.",
     site: "https://www.novelan.com/de/"
   }
 ];
