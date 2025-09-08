@@ -18,22 +18,33 @@
 </head>
 
 <body>
-    <header>
-        <nav id="nav-bar" class="nav-bar">
-            <div class="hamburger" onclick="toggleMenu()">
-                ☰
-            </div>
-            <div class="nav-links">
-                <a href="/index.html"><img src="/assets/logo.png" alt="logo mgt" class="nav-logo" id="nav-logo"></a>
-                <a href="/index.html" class="link-nav">Startseite</a>
-                <a href="/aboutUs.html" class="link-nav">Über uns</a>
-                <a href="/services.html" class="link-nav">Dienstleistungen</a>
-                <a href="/partners.html" class="link-nav">Partner</a>
-                <a href="/contact.html" class="link-nav">Kontakt</a>
-            </div>
-        </nav>
-    </header>
-    <script src="/script.js"></script>
+  <header>
+    <nav id="nav-bar" class="nav-bar">
+      <!-- Botão hambúrguer (visível só em telas menores) -->
+      <button class="hamburger" onclick="toggleMenu()">☰</button>
+
+      <!-- Logo central -->
+      <a href="/index.html" class="nav-logo-link">
+        <img src="/assets/logo.png" alt="logo mgt" class="nav-logo" id="nav-logo">
+      </a>
+
+      <!-- Links de navegação -->
+      <div class="nav-links" id="nav-links">
+        <a href="/index.html" class="link-nav">Startseite</a>
+        <a href="/aboutUs.html" class="link-nav">Über uns</a>
+        <a href="/services.html" class="link-nav">Dienstleistungen</a>
+        <a href="/partners.html" class="link-nav">Partner</a>
+        <a href="/contact.html" class="link-nav">Kontakt</a>
+      </div>
+    </nav>
+  </header>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("nav-links").classList.toggle("show");
+    }
+  </script>
+  <script src="/script.js"></script>
 </body>
 
 </html>
