@@ -146,11 +146,11 @@
 
 .info-home {
     margin-left: 200px;
-    margin-top: 250px;
+    margin-top: 200px;
     position: absolute;
     display: flex;
     flex-direction: column;
-    width: 800px;
+    width: 750px;
 
 }
 
@@ -213,13 +213,14 @@
 .btn-abu-home {
     width: 300px;
     background-color: rgb(128, 5, 5);
-    ;
     margin: 0 auto;
     height: 50px;
     border-radius: 50px;
     border: none;
     font-size: 30px;
     color: #ffffff;
+    margin-top: 10px;
+    cursor: pointer;
 }
 
 .services-container {
@@ -292,7 +293,7 @@
 }
 
 .btn-seeMore {
-    width: 200px;
+    width: 280px;
     background-color: rgb(128, 5, 5);
     margin: 0 auto;
     height: 50px;
@@ -302,6 +303,7 @@
     color: #ffffff;
     margin-top: 40px;
     text-decoration: none;
+    cursor: pointer;
 
 }
 
@@ -315,7 +317,7 @@
     width: 50%;
     height: 500px;
     border-radius: 50px;
-    margin-top: 100px;
+    margin-top: 125px;
 }
 
 .partners-scholl-container {
@@ -397,7 +399,6 @@
 
 .title-choose {
     padding-top: 50px;
-
     text-align: center;
     font-size: 70px;
     margin-bottom: 10px;
@@ -410,32 +411,38 @@
     color: #928e8e;
 }
 
+/* Containers */
 .container-step1,
 .container-step2,
 .container-step3,
 .container-step4 {
-    width: 170px;
+    flex: 1;
+    max-width: 200px;
+    text-align: center;
 }
 
 
 .timeline {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 120px;
+    gap: 60px;
     position: relative;
-    margin: 80px 0;
+    margin: 80px auto;
+    width: 90%;
+    max-width: 1000px;
 }
 
 .timeline::before {
     content: "";
     position: absolute;
-    top: 25%;
-    margin: 0 auto;
-    width: 800px;
+    top: 27%;
+    left: 0;
+    right: 0;
     height: 3px;
     background: linear-gradient(40deg, #00000094, #da0202, #da0202, #da0202, #00000094);
     z-index: 0;
+    transform: translateY(-50%);
 }
 
 .step {
@@ -452,16 +459,13 @@
     z-index: 1;
     transition: transform 0.3s ease;
     animation: pulseGlow 3s infinite ease-in-out;
-
 }
 
 .step i {
     color: #cc2d2d;
     font-size: 35px;
-    text-align: center;
     margin-bottom: 5px;
 }
-
 
 .step span {
     color: #fff;
@@ -471,16 +475,12 @@
 
 .step:hover {
     transform: scale(1.1);
-
 }
 
 @keyframes pulseGlow {
-
-    0%,
-    100% {
+    0%, 100% {
         box-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000;
     }
-
     50% {
         box-shadow: 0 0 2px #ff0000, 0 0 5px #ff0000;
     }
@@ -685,4 +685,47 @@ h4 {
     .step span {
         font-size: 16px;
     }
+}
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.slide-left {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.slide-left.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.slide-right {
+  opacity: 0;
+  transform: translateX(50px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.slide-right.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.zoom-in {
+  opacity: 0;
+  transform: scale(0.8);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.zoom-in.show {
+  opacity: 1;
+  transform: scale(1);
 }

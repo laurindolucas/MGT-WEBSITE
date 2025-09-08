@@ -224,3 +224,27 @@ function toggleMenu() {
   document.querySelector(".nav-links").classList.toggle("show");
 }
 
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("show");
+    }else {
+      entry.target.classList.remove("show"); 
+    }
+  });
+});
+
+const animatedElements = document.querySelectorAll(".fade-in, .slide-left, .slide-right, .zoom-in");
+
+animatedElements.forEach(el => observer.observe(el));
+
+function openButtonAbout(){
+  document.getElementById("btn-about").onclick = () => {
+      window.location.href = "aboutUs.html";
+    };
+}
+function openButtonService(){
+  document.getElementById("btn-seeMore").onclick = () => {
+      window.location.href = "services.html";
+    };
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,32 +28,25 @@
     <main class="main-home">
         <section class="home-1">
             <div class="info-home">
-                <h1 class="title-home">Mülheimer <br><span>Gebäudetechnik</span></h1>
-                <p class="description-home">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eos
-                    voluptatibus velit ducimus
-                    neque est et? Eum debitis repellat similique voluptatibus voluptatem repudiandae ut aliquid
-                    ratione.
-                    Mollitia maxime eum totam!
-                    voluptatibus velit ducimus
-                    neque est et? Eum debitis repellat similique voluptatibus voluptatem repudiandae ut aliquid
-                    ratione.
-                    Mollitia maxime eum totam!</p>
-                <button type="submit" class="btn-abu-home"><a href="abaout"></a>ABOUT US</button>
+                <h1 class="title-home fade-in">Mülheimer <br><span>Gebäudetechnik</span></h1>
+                <p class="description-home fade-in">Schöne Bäder, effiziente Heizsysteme, alternative Energien – wir von
+                    der Mülheimer Gebäudetechnik MGT verstehen unser Handwerk. Dafür sind wir in der Ruhr-Region und in
+                    Mülheim an der Ruhr anerkannt und geschätzt. Seit vielen Jahren arbeiten wir eng mit
+                    Gebäudeeigentümern, Stadtplanern und Architekten zusammen, um mit unserer Erfahrung und Kompetenz
+                    ideale Lösungen für Sanitär- und Heizungsinstallationen zu bieten.</p>
+                <button type="submit" class="btn-abu-home zoom-in" id="btn-about" onclick="openButtonAbout()">ABOUT
+                    US</button>
             </div>
         </section>
         <section class="home-2">
             <div class="home2-conatiner">
                 <div class="info-home2">
-                    <h1 class="title-home2">Who are we?</h1>
-                    <p class="description-home2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eos
-                        voluptatibus velit ducimus
-                        neque est et? Eum debitis repellat similique voluptatibus voluptatem repudiandae ut aliquid
-                        ratione.
-                        Mollitia maxime eum totam!
-                        voluptatibus velit ducimus
-                        neque est et? Eum debitis repellat similique voluptatibus voluptatem repudiandae ut aliquid
-                        ratione.
-                        Mollitia maxime eum totam!</p>
+                    <h1 class="title-home2 fade-in">Wer sind wir?</h1>
+                    <p class="description-home2 fade-in">Wir sind Spezialisten für Planung, Beratung und Umsetzung in
+                        den Bereichen Sanitär, Heizung, Klimaanlagen und erneuerbare Energien. Wir arbeiten transparent,
+                        qualitativ hochwertig und innovativ, sodass jedes Projekt zuverlässig und ohne Überraschungen
+                        umgesetzt wird. Unser hochqualifiziertes Team vereint Erfahrung, Vertrauen und Engagement, um
+                        moderne, nachhaltige und individuell zugeschnittene Lösungen für Sie zu liefern.</p>
                 </div>
                 <div class="container-imgs-home2">
                     <div class="photo1-home2">
@@ -72,50 +66,54 @@
 
         </section>
         <section class="home-3">
-            <h1 class="title-home3">Our services</h1>
+            <h1 class="title-home3">Unsere Leistungen</h1>
             <div class="services-container">
                 <div class="card-services">
                     <div class="info-card">
                         <img src="/assets/leistungen-sanitaer_800x640.jpg" alt="" class="img-card">
-                        <h2 class="card-title">Bathroom construction and renovation</h2>
-                        <p class="description-card">We provide consulting, design & bathroom renovations.
-                            Modern, accessible, personalized solutions, incl. wellness. Tailored fit.
-                            Serving homes, businesses & institutions in Mülheim an der Ruhr and nearby areas.</p>
+                        <h2 class="card-title">Badezimmerbau und -sanierung</h2>
+                        <p class="description-card">
+                            Wir bieten Beratung, Planung und Badsanierungen.
+                            Moderne, barrierefreie und individuelle Lösungen, inkl. Wellness.
+                            Maßgeschneidert für Sie.
+                            Für Privathaushalte, Unternehmen und Institutionen in Mülheim an der Ruhr und Umgebung.
+                        </p>
                     </div>
-
                 </div>
 
                 <div class="card-services">
                     <div class="info-card">
                         <img src="/assets/leistungen-heizung_800x640.jpg" alt="" class="img-card">
-                        <h2 class="card-title">Construction and modernization of heating</h2>
-                        <p class="description-card">We provide consulting, installation, and maintenance of heating
-                            systems.
-                            Including boiler replacement, underfloor heating, hydraulic balancing, and repairs.
-                            Complete services in Mülheim an der Ruhr and surrounding areas.</p>
+                        <h2 class="card-title">Bau und Modernisierung von Heizungen</h2>
+                        <p class="description-card">
+                            Wir bieten Beratung, Installation und Wartung von Heizsystemen.
+                            Einschließlich Kesseltausch, Fußbodenheizung, hydraulischem Abgleich und Reparaturen.
+                            Komplettservice in Mülheim an der Ruhr und Umgebung.
+                        </p>
                     </div>
                 </div>
 
                 <div class="card-services">
                     <div class="info-card">
                         <img src="/assets/leistungen-lueftung_800x640.jpg" alt="" class="img-card">
-                        <h2 class="card-title">Controlled residential ventilation / ventilation systems</h2>
-                        <p class="description-card">We provide consulting, installation, and maintenance of ventilation
-                            systems.
-                            Controlled residential ventilation for fresh air and comfort.
-                            Serving homes, businesses, and institutions in Mülheim an der Ruhr and nearby areas.</p>
+                        <h2 class="card-title">Kontrollierte Wohnraumlüftung / Lüftungsanlagen</h2>
+                        <p class="description-card">
+                            Wir bieten Beratung, Installation und Wartung von Lüftungsanlagen.
+                            Kontrollierte Wohnraumlüftung für frische Luft und Komfort.
+                            Für Privathaushalte, Unternehmen und Institutionen in Mülheim an der Ruhr und Umgebung.
+                        </p>
                     </div>
                 </div>
-
             </div>
             <div class="btnsee">
-                <button type="submit" class="btn-seeMore"> <a href="/services.html" class="btn-seeMore">SEE
-                        MORE</a></button>
+                <button type="submit" class="btn-seeMore" id="btn-seeMore" onclick="openButtonService()">
+                    MEHR ERFAHREN
+                </button>
             </div>
         </section>
         <section class="home-4">
             <div class="container-partners">
-                <h1 class="title-partners">Our partners</h1>
+                <h1 class="title-partners">Unsere Partner</h1>
                 <div class="partners-scholl-container">
                     <div class="topLine-partners">
                         <ul class="list-partners1">
@@ -162,99 +160,98 @@
                 </div>
             </div>
         </section>
-        <section class="home-5">
-            <div class="info-home5">
-                <h1 class="title-choose">reasons to choose mgt</h1>
-                <p class="description-choose">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, ratione.
+       <section class="home-5">
+    <div class="info-home5">
+        <h1 class="title-choose">Gründe für MGT</h1>
+        <p class="description-choose">Wir bieten Erfahrung, Vertrauen und Kompetenz für hochwertige Sanitär-, Heizungs- und Lüftungslösungen.</p>
+    </div>
+    <div class="timeline">
+        <div class="container-step1">
+            <div class="step">
+                <i class="fi fi-sr-shield-check"></i>
+                <span>1</span>
+            </div>
+            <div class="info-step1">
+                <h4>Sicherheit</h4>
+                <p class="description-step">
+                    Lokale Fachkräfte garantieren Sicherheit: Qualifikationen, Erfahrung und fachgerechter Umgang mit hochwertigen Materialien.
                 </p>
             </div>
-            <div class="timeline">
-                <div class="container-step1">
-                    <div class="step">
-                        <i class="fi fi-sr-shield-check"></i>
-                        <span>1</span>
-                    </div>
-                    <div class="info-step1">
-                        <h4>Security</h4>
-                        <p class="description-step">Hiring a local professional ensures safety, as we offer
-                            qualifications, experience, and
-                            preparation to handle high-quality materials.</p>
-                    </div>
-                </div>
-                <div class="container-step2">
-                    <div class="step">
-                        <i class="fi fi-ss-plant-care"></i>
-                        <span>2</span>
-                    </div>
-                    <div class="info-step2">
-                        <h4>Responsibility</h4>
-                        <p class="description-step">In a globalized world, we value sustainability and invest in the
-                            development of our region,
-                            assuming our responsibility as a local company.</p>
-                    </div>
-                </div>
-                <div class="container-step3">
-                    <div class="step">
-                        <i class="fi fi-sr-alarm-clock"></i>
-                        <span>3</span>
-                    </div>
-                    <div class="info-step3">
-                        <h4>Time saving</h4>
-                        <p class="description-step">Save time with our personalized consulting. We recommend the best
-                            solutions for your budget
-                            and needs, based on our experience.</p>
-                    </div>
-                </div>
-                <div class="container-step4">
-                    <div class="step">
-                        <i class="fi fi-ss-piggy-bank"></i>
-                        <span>4</span>
-                    </div>
-                    <div class="info-step4">
-                        <h4>Cost savings</h4>
-                        <p class="description-step">With us, you save time, stress, and money. Investing in quality
-                            avoids future expenses and
-                            ensures lasting results.</p>
-                    </div>
-                </div>
+        </div>
+        <div class="container-step2">
+            <div class="step">
+                <i class="fi fi-ss-plant-care"></i>
+                <span>2</span>
             </div>
-        </section>
+            <div class="info-step2">
+                <h4>Verantwortung</h4>
+                <p class="description-step">
+                    Wir fördern Nachhaltigkeit und investieren in unsere Region, übernehmen Verantwortung als lokales Unternehmen.
+                </p>
+            </div>
+        </div>
+        <div class="container-step3">
+            <div class="step">
+                <i class="fi fi-sr-alarm-clock"></i>
+                <span>3</span>
+            </div>
+            <div class="info-step3">
+                <h4>Zeitersparnis</h4>
+                <p class="description-step">
+                    Unsere persönliche Beratung spart Zeit: Wir empfehlen die besten Lösungen für Budget und Bedarf.
+                </p>
+            </div>
+        </div>
+        <div class="container-step4">
+            <div class="step">
+                <i class="fi fi-ss-piggy-bank"></i>
+                <span>4</span>
+            </div>
+            <div class="info-step4">
+                <h4>Kosteneinsparung</h4>
+                <p class="description-step">
+                    Mit uns sparen Sie Zeit, Stress und Geld. Investitionen in Qualität sichern langfristige Ergebnisse.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
         <section class="home-6">
 
         </section>
         <section class="home-7">
             <section class="form-container">
-                <h1 class="contact-title">Get in touch with us</h1>
+                <h1 class="contact-title">Nehmen Sie Kontakt mit uns auf</h1>
                 <div id="container-form">
                     <form action="">
                         <div class="form-initial">
                             <div class="group-form">
                                 <label for="Name" class="title-label">Name:</label>
-                                <input type="text" placeholder="enter your email" class="form-input">
+                                <input type="text" placeholder="Name eingeben" class="form-input">
                             </div>
 
                             <div class="group-form">
-                                <label for="Subject" class="title-label">Subject:</label>
-                                <input type="text" placeholder="enter the subject" class="form-input">
+                                <label for="Subject" class="title-label">Betreff:</label>
+                                <input type="text" placeholder="Bitte Betreff eingeben" class="form-input">
                             </div>
                         </div>
 
                         <div class="form-continue">
                             <div class="group-form">
-                                <label for="Phone" class="title-label">Phone:</label>
-                                <input type="text" placeholder="enter your phone number" class="form-input">
+                                <label for="Phone" class="title-label">Telefon:</label>
+                                <input type="text" placeholder="Telefonnummer eingeben" class="form-input">
                             </div>
                             <div class="group-form">
-                                <label for="Email" class="title-label">Email:</label>
+                                <label for="Email" class="title-label">E-Mail:</label>
                                 <input type="email" placeholder="enter your email" class="form-input">
                             </div>
                             <div class="group-form">
-                                <label for="message" class="title-label">Message:</label>
+                                <label for="message" class="title-label">Nachricht:</label>
                                 <textarea name="message" id="conact-message"
-                                    placeholder="leave your message"></textarea>
+                                    placeholder="Nachricht hinterlassen"></textarea>
                             </div>
 
-                            <button type="submit" class="form-btn">to send</button>
+                            <button type="submit" class="form-btn">Senden</button>
 
                         </div>
 
@@ -263,18 +260,18 @@
                     <div class="cards-contact">
                         <div class="card">
                             <i class="fi fi-sr-phone-call" id="card-icon"></i>
-                            <h3>Our phone</h3>
+                            <h3>Unser Telefon</h3>
                             <p>+49 208 1234567</p>
                         </div>
                         <div class="card">
                             <i class="fi fi-sr-envelope" id="card-icon"></i>
-                            <h3>Our email</h3>
+                            <h3>Unsere E-Mail</h3>
                             <p> info@mh-gt.de</p>
                         </div>
                         <div class="card">
                             <i class="fi fi-sr-marker" id="card-icon"></i>
-                            <h3>Our location</h3>
-                            <p>Mülheimer Gebäudetechnik MGT
+                            <h3>Unser Standort</h3>
+                            <p class="description-card-loc">Mülheimer Gebäudetechnik MGT
                                 Heinrich-Melzer-Str. 7
                                 45468 Mülheim a. d. Ruhr</p>
                         </div>
@@ -282,20 +279,16 @@
 
                 </div>
                 <div class="container-form-map">
-                    <h2 class="map-form-title">See on map:</h2>
+                    <h2 class="map-form-title">Auf der Karte ansehen:</h2>
                     <div class="map-form">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d156799.16423590292!2d6.999618!3d51.40534!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b8c18ec89ad3c7%3A0xfd8467840bb18f15!2sMGT%20-%20M%C3%BClheimer%20Geb%C3%A4udetechnik%20GmbH!5e1!3m2!1spt-BR!2sus!4v1755176824681!5m2!1spt-BR!2sus"
                             width="800" height="300" style="border:none; border-radius: 20px;" allowfullscreen=""
                             loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
-
-                </div>
                 </div>
 
             </section>
-            </div>
-        </section>
     </main>
 
     <div id="container-footer"></div>
