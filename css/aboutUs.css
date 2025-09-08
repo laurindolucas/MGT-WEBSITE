@@ -147,7 +147,7 @@ background: #0f0f0f;
 
 .about-section, .section-strong {
   width: 100%;
-  background: #1b0000; /* dark background */
+  background: #1b0000; 
   color: #ffffff;
   padding: 100px 20px;
   display: flex;
@@ -227,7 +227,7 @@ background: #0f0f0f;
 }
 .call{
     min-height: 60vh;
-    background: linear-gradient(45deg, #8a0000, #bd0202);
+    background:#1b0000;
 
 }
 
@@ -241,6 +241,7 @@ background: #0f0f0f;
     padding-top: 40px;
     font-size: 60px;
     text-align: center;
+    color: white;
 }
 .cards-description{
     color: white;
@@ -251,7 +252,7 @@ background: #0f0f0f;
     padding-bottom: 10px;
 }
 .cards-title span {
-    color: #ffffff;
+    color:  #b80808;
 }
 .cards-container-call{
     display: flex;

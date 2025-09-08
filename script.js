@@ -144,80 +144,80 @@ function closeModel() {
 
 
 function openServicePage(id) {
-    const panel = document.getElementById("service-panel");
-    const image = document.getElementById("details-service-image");
-    const title = document.getElementById("details-service-title");
-    const subtitle = document.getElementById("details-service-subtitle");
-    const description = document.getElementById("details-service-description");
+  const panel = document.getElementById("service-panel");
+  const image = document.getElementById("details-service-image");
+  const title = document.getElementById("details-service-title");
+  const subtitle = document.getElementById("details-service-subtitle");
+  const description = document.getElementById("details-service-description");
 
-    
-    const services = {
-        1: {
-            title: "Air conditioning systems",
-          subtitle: "Cooling and climate control",
-            description: "Comfort within your living or working space depends greatly on the indoor climate and atmosphere, where temperature and humidity play an essential role. Choosing the right air conditioning system ensures not only a pleasant environment but also efficiency and long-term reliability. Our team provides expert consultation to help you select the most suitable solution, followed by professional installation tailored to your specific needs. Beyond installation, we also offer comprehensive maintenance and service to keep your system performing at its best year after year. Whether for private homes, commercial properties, or public institutions, our expertise in advanced air conditioning technology guarantees an optimal indoor climate, combining comfort, efficiency, and innovation.",
-            image: "/assets/servicesIMG/AirconditioningIMG.jpg"
-        },
-        2: {
-            title: "Construction and modernization of heating",
-             subtitle: "Efficient and reliable heating solutions",
-            description: "We are recognized as professional heating system installers, delivering solutions that combine technical precision, reliability, and exceptional service. Beyond offering trusted and competent consultation, we carry out every project with professionalism and a deep understanding of your individual needs. From guiding you through the process of selecting the most suitable heating system for your building, to presenting and installing complete solutions tailored to your requirements, our focus is always on comfort, efficiency, and long-term value. Our expertise covers the full spectrum of heating services, including underfloor heating, advanced heating systems, hydraulic balancing, and modern boiler replacements, as well as the integration of stoves and fireplaces for both functionality and atmosphere. In addition to planning and installation, we also provide comprehensive maintenance and repair services, ensuring the reliability and performance of your system over time. Whether for private residences or commercial and public facilities, our team is dedicated to delivering heating solutions that merge innovation, durability, and premium quality.",
-            image: "/assets/servicesIMG/heatingIMG.jpg"
-        },
-        3: {
-            title: "Renewable energy",
-            subtitle: "Innovative and sustainable energy systems",
-            description: "For those seeking comprehensive, clear, and expert guidance on the use of renewable energy, we provide tailored advice and professional implementation designed to meet your individual needs. Our team takes the time to explain the available options in detail, helping you understand how to effectively reduce utility costs while choosing the energy system best suited to your lifestyle and long-term goals. We also assist with evaluating eligibility for government subsidies, ensuring you benefit from all available advantages when transitioning to sustainable solutions. Our expertise spans modern renewable energy sources, from heat pumps and thermal solar systems to photovoltaic technology, biomass, wood pellet heating, and combined heat and power systems. In addition to precise planning and professional installation, you can rely on us for ongoing maintenance, technical support, and reliable repair services. Whether for private households, businesses, or public institutions, we are committed to delivering renewable energy solutions that combine innovation, efficiency, and sustainability — creating real value for both you and the environment.We implement solar, wind, and other renewable energy solutions to reduce costs and protect the planet.",
-            image: "/assets/servicesIMG/renewableIMG.jpg"
-        },
-        4: {
-            title: "Controlled residential ventilation / ventilation systems",
-           subtitle: "Healthy indoor air and energy efficiency",
-            description: "Ensuring high-quality indoor air is essential for comfort, health, and the long-term value of your property. We specialize in controlled residential ventilation, offering comprehensive solutions that enhance air quality while optimizing energy efficiency. Our services cover the entire process, from careful planning and professional installation in new constructions and existing buildings to ongoing maintenance and system optimization. We provide expert guidance tailored to your specific needs, helping you choose the right system and ensuring it operates efficiently year-round. Our team focuses on delivering solutions that not only improve comfort and well-being but also contribute to sustainability and the longevity of your building. Whether for private residences or commercial facilities, we ensure that your ventilation system provides a safe, clean, and comfortable environment, with professional support every step of the way.",
-            image: "/assets/servicesIMG/controlledIMG.jpg"
-        },
-        5: {
-            title: "Bathroom construction and renovation",
-             subtitle: "Exclusive and tailor-made bathroom design",
-            description: "Whether you are building a completely new bathroom, renovating an existing one, or seeking a modern upgrade, we provide a comprehensive service that combines technical expertise, refined design, and absolute exclusivity. Our work goes far beyond plumbing: we craft contemporary, tailor-made bathrooms that harmoniously reflect your lifestyle and seamlessly integrate into your home. Through detailed consultation, we guide you at every stage — from planning to execution — delivering transparent, personalized solutions that merge functionality, comfort, and timeless elegance. With expertise in new bathroom projects, full-scale renovations, subtle modernizations, and accessible design adaptations, we ensure results that embody both practicality and sophistication. We also specialize in wellness bathrooms, transforming your space into a true private spa, and provide high-quality sanitary installations for commercial and public facilities, always with the same dedication to detail, durability, and premium finish. Every project is carried out with excellence, so your bathroom becomes not just a functional space, but an experience of comfort, style, and luxury.",
-            image: "/assets/servicesIMG/bathroomIMG.jpg"
-        },
-        6: {
-            title: "Drinking water, rainwater and wastewater technology",
-           subtitle: "Comprehensive water management solutions",
-            description: "Water is life’s most essential resource, forming the foundation of our daily routines and well-being. From drinking and cooking to bathing, washing, and the use of household appliances, every aspect of modern living depends on a reliable water system. We ensure that everything in your home flows smoothly, functions flawlessly, and meets the highest standards of cleanliness and efficiency. Our expertise covers the full spectrum of water management, including the installation of drinking water systems, building drainage and wastewater solutions, rainwater harvesting, as well as water treatment and softening. Beyond private households, we also provide tailored solutions for commercial and public facilities, always combining technical precision with long-lasting reliability. With professional planning, expert execution, and dedicated maintenance, we create systems that guarantee safety, sustainability, and comfort in every drop.",
-            image: "/assets/servicesIMG/drinkingIMG.jpg"
-        },
-        7: {
-            title: "Checks and maintenance",
-              subtitle: "Proactive care and long-term reliability",
-            description: "Protecting and preserving your investment over the long term begins with regular system inspections. Proactive maintenance not only increases safety but also helps identify potential savings and conserve valuable resources. By detecting defects early, costly repairs can be avoided, ensuring greater reliability and peace of mind. Working in partnership with leading manufacturers, we provide professional inspections and maintenance across a wide range of systems. Our expertise includes gas checks, heating tests, potable water inspections, leak detection, and pipe cleaning, as well as water damage repair and building drying services. Every service is carried out with precision and care, ensuring that your systems operate efficiently, sustainably, and without interruption.",
-            image: "/assets/servicesIMG/checksIMG.jpg"
-        },
-        8: {
-            title: "Commercial refrigeration technology",
-            subtitle: "Customized cooling and preservation solutions",
-            description: "Rely on our expertise in protection and safety technology to keep your systems running reliably around the clock. We design customized refrigeration solutions tailored to your specific requirements, ensuring consistent comfort, safety, and the long-term preservation of your assets. Our services cover every aspect of commercial refrigeration, from system planning and installation to piping, refrigeration units, and generators, as well as comprehensive maintenance to guarantee efficiency and durability. Whether for commercial facilities or public institutions, we deliver professional solutions that combine precision, reliability, and long-term value.",
-            image: "/assets/servicesIMG/commercialIMG.jpg"
-        }
-       
-    };
 
-    if (services[id]) {
-        image.src = services[id].image;
-        title.textContent = services[id].title;
-        subtitle.textContent = services[id].subtitle;
-        description.textContent = services[id].description;
+  const services = {
+    1: {
+      title: "Klimaanlagen",
+      subtitle: "Kühlung und Klimasteuerung",
+      description: "Der Komfort in Ihren Wohn- oder Arbeitsräumen hängt stark vom Raumklima ab, wobei Temperatur und Luftfeuchtigkeit eine wesentliche Rolle spielen. Die Wahl des richtigen Klimasystems gewährleistet nicht nur eine angenehme Umgebung, sondern auch Effizienz und langfristige Zuverlässigkeit. Unser Team bietet Ihnen eine fachkundige Beratung, um die am besten geeignete Lösung für Sie zu finden. Anschließend folgt die professionelle Installation, die auf Ihre speziellen Bedürfnisse zugeschnitten ist. Über die Installation hinaus bieten wir auch eine umfassende Wartung und Service an, damit Ihr System Jahr für Jahr seine beste Leistung erbringt. Ob für Privathäuser, Gewerbeobjekte oder öffentliche Einrichtungen, unsere Expertise in fortschrittlicher Klimaanlagentechnik garantiert ein optimales Raumklima, das Komfort, Effizienz und Innovation vereint.",
+      image: "/assets/servicesIMG/AirconditioningIMG.jpg"
+    },
+    2: {
+      title: "Bau und Modernisierung von Heizungsanlagen",
+      subtitle: "Effiziente und zuverlässige Heizungslösungen",
+      description: "Wir sind anerkannte professionelle Installateure von Heizungssystemen und liefern Lösungen, die technische Präzision, Zuverlässigkeit und außergewöhnlichen Service vereinen. Neben vertrauenswürdiger und kompetenter Beratung führen wir jedes Projekt mit Professionalität und einem tiefen Verständnis für Ihre individuellen Bedürfnisse durch. Von der Begleitung bei der Auswahl des am besten geeigneten Heizsystems für Ihr Gebäude bis hin zur Präsentation und Installation kompletter, auf Ihre Anforderungen zugeschnittener Lösungen, liegt unser Fokus stets auf Komfort, Effizienz und langfristigem Wert. Unsere Expertise deckt das gesamte Spektrum der Heizungsdienstleistungen ab, einschließlich Fußbodenheizung, fortschrittlicher Heizsysteme, hydraulischem Abgleich und modernem Kesselaustausch, sowie der Integration von Öfen und Kaminen für Funktionalität und Atmosphäre. Zusätzlich zur Planung und Installation bieten wir auch umfassende Wartungs- und Reparaturdienste an, um die Zuverlässigkeit und Leistung Ihres Systems über die Zeit zu gewährleisten. Ob für private Wohnsitze oder gewerbliche und öffentliche Einrichtungen, unser Team hat sich zum Ziel gesetzt, Heizungslösungen zu liefern, die Innovation, Langlebigkeit und Premium-Qualität vereinen.",
+      image: "/assets/servicesIMG/heatingIMG.jpg"
+    },
+    3: {
+      title: "Erneuerbare Energien",
+      subtitle: "Innovative und nachhaltige Energiesysteme",
+      description: "Für diejenigen, die eine umfassende, klare und fachkundige Beratung zur Nutzung erneuerbarer Energien suchen, bieten wir maßgeschneiderte Beratung und professionelle Umsetzung, die auf Ihre individuellen Bedürfnisse zugeschnitten ist. Unser Team nimmt sich die Zeit, die verfügbaren Optionen im Detail zu erklären und Ihnen zu helfen, zu verstehen, wie Sie die Energiekosten effektiv senken und gleichzeitig das am besten für Ihren Lebensstil und Ihre langfristigen Ziele geeignete Energiesystem wählen können. Wir unterstützen Sie auch bei der Prüfung der Anspruchsberechtigung für staatliche Förderungen, um sicherzustellen, dass Sie alle verfügbaren Vorteile beim Übergang zu nachhaltigen Lösungen nutzen können. Unsere Expertise erstreckt sich über moderne erneuerbare Energiequellen, von Wärmepumpen und Solarthermieanlagen bis hin zu Photovoltaik-Technologie, Biomasse, Holzpelletheizungen und Kraft-Wärme-Kopplungsanlagen. Neben präziser Planung und professioneller Installation können Sie sich auf uns für die laufende Wartung, den technischen Support und zuverlässige Reparaturdienste verlassen. Ob für private Haushalte, Unternehmen oder öffentliche Einrichtungen, wir sind bestrebt, Lösungen für erneuerbare Energien zu liefern, die Innovation, Effizienz und Nachhaltigkeit verbinden – um einen echten Mehrwert für Sie und die Umwelt zu schaffen.",
+      image: "/assets/servicesIMG/renewableIMG.jpg"
+    },
+    4: {
+      title: "Kontrollierte Wohnraumlüftung / Lüftungsanlagen",
+      subtitle: "Gesunde Raumluft und Energieeffizienz",
+      description: "Die Sicherstellung einer hochwertigen Raumluft ist entscheidend für Komfort, Gesundheit und den langfristigen Wert Ihrer Immobilie. Wir sind auf kontrollierte Wohnraumlüftung spezialisiert und bieten umfassende Lösungen, die die Luftqualität verbessern und gleichzeitig die Energieeffizienz optimieren. Unsere Dienstleistungen umfassen den gesamten Prozess, von der sorgfältigen Planung und professionellen Installation in Neubauten und bestehenden Gebäuden bis hin zur laufenden Wartung und Systemoptimierung. Wir bieten Ihnen eine fachkundige Beratung, die auf Ihre spezifischen Bedürfnisse zugeschnitten ist, um Ihnen bei der Auswahl des richtigen Systems zu helfen und dessen effizienten Betrieb das ganze Jahr über zu gewährleisten. Unser Team konzentriert sich auf die Bereitstellung von Lösungen, die nicht nur den Komfort und das Wohlbefinden verbessern, sondern auch zur Nachhaltigkeit und Langlebigkeit Ihres Gebäudes beitragen. Ob für private Wohnsitze oder gewerbliche Einrichtungen, wir sorgen dafür, dass Ihr Lüftungssystem eine sichere, saubere und komfortable Umgebung bietet, mit professioneller Unterstützung bei jedem Schritt.",
+      image: "/assets/servicesIMG/controlledIMG.jpg"
+    },
+    5: {
+      title: "Badbau und Renovierung",
+      subtitle: "Exklusives und maßgeschneidertes Baddesign",
+      description: "Egal, ob Sie ein komplett neues Badezimmer bauen, ein bestehendes renovieren oder ein modernes Upgrade anstreben, wir bieten einen umfassenden Service, der technische Expertise, raffiniertes Design und absolute Exklusivität vereint. Unsere Arbeit geht weit über die Sanitärinstallation hinaus: Wir gestalten moderne, maßgeschneiderte Badezimmer, die Ihren Lebensstil harmonisch widerspiegeln und sich nahtlos in Ihr Zuhause einfügen. Durch eine detaillierte Beratung begleiten wir Sie in jeder Phase – von der Planung bis zur Ausführung – und liefern transparente, personalisierte Lösungen, die Funktionalität, Komfort und zeitlose Eleganz verschmelzen. Mit unserer Expertise in neuen Badprojekten, kompletten Renovierungen, subtilen Modernisierungen und barrierefreien Designanpassungen gewährleisten wir Ergebnisse, die sowohl Praktikabilität als auch Raffinesse verkörpern. Wir sind auch auf Wellness-Bäder spezialisiert, die Ihren Raum in ein wahres privates Spa verwandeln, und bieten hochwertige Sanitärinstallationen für gewerbliche und öffentliche Einrichtungen, immer mit der gleichen Hingabe zu Detail, Langlebigkeit und Premium-Verarbeitung. Jedes Projekt wird mit Exzellenz ausgeführt, damit Ihr Badezimmer nicht nur ein funktionaler Raum, sondern ein Erlebnis von Komfort, Stil und Luxus wird.",
+      image: "/assets/servicesIMG/bathroomIMG.jpg"
+    },
+    6: {
+      title: "Trinkwasser-, Regenwasser- und Abwassertechnik",
+      subtitle: "Umfassende Lösungen für das Wassermanagement",
+      description: "Wasser ist die wichtigste Ressource des Lebens und bildet die Grundlage unserer täglichen Routinen und unseres Wohlbefindens. Vom Trinken und Kochen bis zum Baden, Waschen und der Nutzung von Haushaltsgeräten hängt jeder Aspekt des modernen Lebens von einem zuverlässigen Wassersystem ab. Wir sorgen dafür, dass in Ihrem Haus alles reibungslos fließt, einwandfrei funktioniert und den höchsten Standards an Sauberkeit und Effizienz entspricht. Unsere Expertise deckt das gesamte Spektrum des Wassermanagements ab, einschließlich der Installation von Trinkwassersystemen, der Gebäudeentwässerung und Abwasserlösungen, der Regenwassernutzung sowie der Wasseraufbereitung und -enthärtung. Über private Haushalte hinaus bieten wir auch maßgeschneiderte Lösungen für gewerbliche und öffentliche Einrichtungen, wobei wir stets technische Präzision mit langanhaltender Zuverlässigkeit kombinieren. Mit professioneller Planung, fachkundiger Ausführung und engagierter Wartung schaffen wir Systeme, die Sicherheit, Nachhaltigkeit und Komfort in jedem Tropfen garantieren.",
+      image: "/assets/servicesIMG/drinkingIMG.jpg"
+    },
+    7: {
+      title: "Prüfungen und Wartung",
+      subtitle: "Proaktive Pflege und langfristige Zuverlässigkeit",
+      description: "Der langfristige Schutz und Erhalt Ihrer Investition beginnt mit regelmäßigen Systeminspektionen. Eine proaktive Wartung erhöht nicht nur die Sicherheit, sondern hilft auch, potenzielle Einsparungen zu identifizieren und wertvolle Ressourcen zu schonen. Durch die frühzeitige Erkennung von Mängeln können kostspielige Reparaturen vermieden werden, was eine höhere Zuverlässigkeit und Sorgenfreiheit gewährleistet. In Zusammenarbeit mit führenden Herstellern führen wir professionelle Inspektionen und Wartungen an einer Vielzahl von Systemen durch. Unsere Expertise umfasst Gasprüfungen, Heizungsüberprüfungen, Trinkwasserinspektionen, Lecksuche und Rohrreinigung sowie Wasserschadensanierung und Gebäudetrocknung. Jeder Service wird mit Präzision und Sorgfalt ausgeführt, um sicherzustellen, dass Ihre Systeme effizient, nachhaltig und ohne Unterbrechung funktionieren.",
+      image: "/assets/servicesIMG/checksIMG.jpg"
+    },
+    8: {
+      title: "Gewerbliche Kältetechnik",
+      subtitle: "Maßgeschneiderte Kühl- und Konservierungslösungen",
+      description: "Verlassen Sie sich auf unsere Expertise in der Schutz- und Sicherheitstechnik, um Ihre Systeme rund um die Uhr zuverlässig am Laufen zu halten. Wir entwerfen maßgeschneiderte Kühllösungen, die auf Ihre spezifischen Anforderungen zugeschnitten sind und einen konstanten Komfort, Sicherheit und die langfristige Erhaltung Ihrer Anlagen gewährleisten. Unsere Dienstleistungen decken jeden Aspekt der gewerblichen Kältetechnik ab, von der Systemplanung und Installation über die Verrohrung, Kältemaschinen und Generatoren bis hin zur umfassenden Wartung, um Effizienz und Langlebigkeit zu garantieren. Ob für gewerbliche Einrichtungen oder öffentliche Institutionen, wir liefern professionelle Lösungen, die Präzision, Zuverlässigkeit und langfristigen Wert vereinen.",
+      image: "/assets/servicesIMG/commercialIMG.jpg"
     }
 
-    panel.classList.add("open");
-    document.querySelector(".services-section").classList.add("panel-open");
+  };
+
+  if (services[id]) {
+    image.src = services[id].image;
+    title.textContent = services[id].title;
+    subtitle.textContent = services[id].subtitle;
+    description.textContent = services[id].description;
+  }
+
+  panel.classList.add("open");
+  document.querySelector(".services-section").classList.add("panel-open");
 }
 
 function closeServicePanel() {
-    const panel = document.getElementById("service-panel");
-    panel.classList.remove("open");
-    document.querySelector(".services-section").classList.remove("panel-open");
+  const panel = document.getElementById("service-panel");
+  panel.classList.remove("open");
+  document.querySelector(".services-section").classList.remove("panel-open");
 }
 
 function toggleMenu() {
