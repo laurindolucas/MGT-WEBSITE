@@ -1,76 +1,86 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MGT CONTACT</title>
     <link rel="stylesheet" href="/css/contact.css">
 </head>
+
 <body>
     <div id="navbar-container"></div>
     <main class="main-contact">
         <section class="form-container">
             <h1 class="contact-title">Nehmen Sie Kontakt mit uns auf</h1>
             <div id="container-form">
-                 <form action="">
-                        <div class="form-initial">
-                            <div class="group-form">
-                                <label for="Name"  class="title-label">Name:</label>
-                                <input type="text" placeholder="Name eingeben" class="form-input">
-                            </div>
-
-                            <div class="group-form">
-                                <label for="Subject"  class="title-label">Betreff:</label>
-                                <input type="text" placeholder="Bitte Betreff eingeben" class="form-input">
-                            </div>
+                <form id="meuForm">
+                    <div class="form-initial">
+                        <div class="group-form">
+                            <label for="Name" class="title-label">Name:</label>
+                            <input type="text" name="user_name" placeholder="Name eingeben" class="form-input" required>
                         </div>
 
-                        <div class="form-continue">
-                            <div class="group-form">
-                                <label for="Phone"  class="title-label">Telefon:</label>
-                                <input type="text" placeholder="Telefonnummer eingeben" class="form-input">
-                            </div>
-                            <div class="group-form">
-                                <label for="Email" class="title-label">E-Mail:</label>
-                                <input type="email" placeholder="enter your email" class="form-input">
-                            </div>
-                            <div class="group-form">
-                                <label for="message"  class="title-label">Nachricht:</label>
-                                <textarea name="message" id="conact-message" placeholder="Nachricht hinterlassen" ></textarea>
-                            </div>
+                        <div class="group-form">
+                            <label for="Subject" class="title-label">Betreff:</label>
+                            <input type="text" name="user_subject" placeholder="Bitte Betreff eingeben"
+                                class="form-input" required>
+                        </div>
+                    </div>
 
-                            <button type="submit" class="form-btn">Senden</button>
-
+                    <div class="form-continue">
+                        <div class="group-form">
+                            <label for="Phone" class="title-label">Telefon:</label>
+                            <input type="text" name="user_phone" placeholder="Telefonnummer eingeben"
+                                class="form-input">
                         </div>
 
-            </form>
+                        <div class="group-form">
+                            <label for="Email" class="title-label">E-Mail:</label>
+                            <input type="email" name="user_email" placeholder="enter your email" class="form-input"
+                                required>
+                        </div>
 
-            <div class="cards-contact">
-                <div class="card">
-                    <i class="fi fi-sr-phone-call" id="card-icon"></i>
-                    <h3>Unser Telefon</h3>
-                    <p>+49 208 1234567</p>
+                        <div class="group-form">
+                            <label for="message" class="title-label">Nachricht:</label>
+                            <textarea name="message" id="conact-message" placeholder="Nachricht hinterlassen"
+                                required></textarea>
+                        </div>
+
+                        <button type="submit" class="form-btn">Senden</button>
+                    </div>
+                </form>
+
+                <div class="cards-contact">
+                    <div class="card">
+                        <i class="fi fi-sr-phone-call" id="card-icon"></i>
+                        <h3>Unser Telefon</h3>
+                        <p>+49 208 1234567</p>
+                    </div>
+                    <div class="card">
+                        <i class="fi fi-sr-envelope" id="card-icon"></i>
+                        <h3>Unsere E-Mail</h3>
+                        <p> info@mh-gt.de</p>
+                    </div>
+                    <div class="card">
+                        <i class="fi fi-sr-marker" id="card-icon"></i>
+                        <h3>Unser Standort</h3>
+                        <p class="description-card-loc">Mülheimer Gebäudetechnik MGT
+                            Heinrich-Melzer-Str. 7
+                            45468 Mülheim a. d. Ruhr</p>
+                    </div>
                 </div>
-                <div class="card">
-                    <i class="fi fi-sr-envelope" id="card-icon"></i>
-                     <h3>Unsere E-Mail</h3>
-                    <p> info@mh-gt.de</p>
-                </div>
-                <div class="card">
-                    <i class="fi fi-sr-marker" id="card-icon"></i>
-                    <h3>Unser Standort</h3>
-                    <p class="description-card-loc">Mülheimer Gebäudetechnik MGT
-                    Heinrich-Melzer-Str. 7
-                    45468 Mülheim a. d. Ruhr</p>
-                </div>
+
             </div>
-            
-        </div>
-        <div class="container-form-map">
+            <div class="container-form-map">
                 <h2 class="map-form-title">Auf der Karte ansehen:</h2>
                 <div class="map-form">
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d156799.16423590292!2d6.999618!3d51.40534!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b8c18ec89ad3c7%3A0xfd8467840bb18f15!2sMGT%20-%20M%C3%BClheimer%20Geb%C3%A4udetechnik%20GmbH!5e1!3m2!1spt-BR!2sus!4v1755176824681!5m2!1spt-BR!2sus" width="800" height="300" style="border:none; border-radius: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                </div>
-        </div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d156799.16423590292!2d6.999618!3d51.40534!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b8c18ec89ad3c7%3A0xfd8467840bb18f15!2sMGT%20-%20M%C3%BClheimer%20Geb%C3%A4udetechnik%20GmbH!5e1!3m2!1spt-BR!2sus!4v1755176824681!5m2!1spt-BR!2sus"
+                        width="800" height="300" style="border:none; border-radius: 20px;" allowfullscreen=""
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
 
         </section>
 
@@ -78,5 +88,8 @@
 
     <div id="container-footer"></div>
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="form.js"></script>
 </body>
+
 </html>
