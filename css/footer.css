@@ -72,6 +72,7 @@ footer {
     border-radius: 20px;
 
 }
+
 /* ===== Responsividade ===== */
 
 /* Telas médias - tablets (até 1024px) */
@@ -154,6 +155,7 @@ footer {
 
     .map-footer-container {
         height: 180px;
+        margin-bottom: 20px;
     }
 
     #slogan-footer {
