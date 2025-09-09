@@ -8,7 +8,10 @@
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
 }
-
+html, body {
+    width: 100%;
+    overflow-x: hidden; /* bloqueia espaço lateral */
+}
 /* ==========================================================================
    Estilos de seções da página (Layout)
    ========================================================================== */
@@ -553,8 +556,8 @@ h4 {
     .home-1 {
         min-height: 70vh;
         background-size: cover;
-        background-position: 70% center;
-        /* controla o deslocamento */
+        background-position: 65% center;
+        padding: 0;
         background-repeat: no-repeat;
     }
 

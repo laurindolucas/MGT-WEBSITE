@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+html, body {
+    width: 100%;
+    overflow-x: hidden; /* bloqueia espaço lateral */
+}
 
 .aboutUs-main {
     min-height: 100vh;

@@ -129,13 +129,15 @@
         height: 60px;
         justify-content: space-between;
         padding: 0 15px;
-        
-        background: rgba(0, 0, 0, 0.9);
-        border-radius: 0;
+        background: rgba(209, 209, 209, 0.9);
+        border-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
         left: 0;
-        top: 0;              /* colada no topo */
-        margin-top: 0;       /* remove espaço */
+        top: 0;              
+        margin-top: 0;       
         transform: none;
+        
     }
 
     #nav-logo {
@@ -165,6 +167,11 @@
         background: rgba(255, 255, 255, 0.1);
         color: #ff3636;
     }
+       .hamburger {
+        font-size: 24px;
+        color: #000;
+    }
+
 }
 
 /* ========================= */
@@ -173,11 +180,12 @@
 @media (max-width: 360px) {
     .nav-bar {
         height: 55px;
-        padding: 0 10px;
+        width: 100%;
     }
 
     .hamburger {
         font-size: 24px;
+        color: #000;
     }
 
     .nav-links a {
