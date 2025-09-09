@@ -134,10 +134,10 @@
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         left: 0;
-        top: 0;              
-        margin-top: 0;       
+        top: 0;
+        margin-top: 0;
         transform: none;
-        
+
     }
 
     #nav-logo {
@@ -167,7 +167,8 @@
         background: rgba(255, 255, 255, 0.1);
         color: #ff3636;
     }
-       .hamburger {
+
+    .hamburger {
         font-size: 24px;
         color: #000;
     }
@@ -206,6 +207,7 @@
         transform: translateX(100%);
         opacity: 0;
     }
+
     to {
         transform: translateX(0);
         opacity: 1;

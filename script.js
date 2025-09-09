@@ -21,7 +21,7 @@ const parceiros = [
     imagem: "/assets/4You-logo.jpg",
     nome: "4YOU",
     descricao: "4YOU verbindet langlebige Qualität mit makelloser Ästhetik, um Ihr Badezimmer in einen wahren Wohlfühlraum zu verwandeln. Mehr als nur ein Raum wird es Teil einer offenen und einladenden Umgebung, perfekt für Momente der Entspannung oder Erneuerung. Mit einer Vielzahl von Designs, Funktionen und Oberflächen bietet 4YOU Optionen von praktisch bis anspruchsvoll, sodass Sie jedes Detail personalisieren und einen einzigartigen Raum schaffen können, der Ihre Persönlichkeit widerspiegelt und täglich Komfort bietet."
-   
+
   },
   {
     id: 2,
@@ -34,56 +34,56 @@ const parceiros = [
     imagem: "/assets/bette-logo.jpg",
     nome: "BETTE",
     descricao: "Das deutsche Familienunternehmen Bette spezialisiert sich auf Badelemente aus emailliertem Titanstahl, darunter Badewannen, Duschflächen, Duschwannen und Waschbecken. Wir sind Ihr vertrauensvoller Bette-Partner in Mülheim an der Ruhr und Umgebung und bieten Qualität, Langlebigkeit und anspruchsvolles Design."
-    
+
   },
   {
     id: 4,
     imagem: "/assets/bosch-logo.jpg",
     nome: "BOSCH",
     descricao: "Bosch ist ein Maßstab für Spitzentechnologie, intelligente Heizlösungen und höchste Qualität. Seit über 100 Jahren sorgt das Unternehmen für warme und komfortable Häuser mit zuverlässigen, benutzerfreundlichen und nachhaltigen Geräten. Bosch engagiert sich für die Energiewende, unterstützt Klimaziele und fördert umweltfreundliche Projekte für eine grünere Zukunft in Deutschland."
-   
+
   },
   {
     id: 5,
     imagem: "/assets/burgbad-logo.jpg",
     nome: "burgbad",
     descricao: "Badezimmermöbel in ihrer elegantesten Form. Auf der Suche nach Inspiration für Ihr Traumbadezimmer? Wir sind Ihr spezialisierter burgbad-Partner in Mülheim an der Ruhr. Mit der großen Auswahl an Waschtischen und Möbeln von burgbad finden Sie genau das Richtige, um einen einzigartigen, persönlichen Raum zu gestalten. Unabhängig von der Größe Ihres Badezimmers bietet burgbad maßgefertigte Möbel, die auf Ihre Wünsche zugeschnitten sind."
-   
+
   },
   {
     id: 6,
     imagem: "/assets/daikin-logo.jpg",
     nome: "DAIKIN",
     descricao: "Mit modernster Technologie liefert Daikin seit über 90 Jahren Komfort und Bequemlichkeit in Heizung und Kühlung. Als weltweit führender Anbieter von Klimaanlagen und meistverkaufte Marke für Wärmepumpen in Europa setzt das Unternehmen auf Nachhaltigkeit ohne Kompromisse bei der Qualität. Energieeffizienz, alternative Kältemittel und umweltfreundliche Produktionsprozesse stehen im Mittelpunkt der Strategie, mit klarem Fokus auf langfristigen Klimaschutz. Schaffen Sie Ihr ideales Raumklima und sparen Sie Energie und Geld mit Daikins effizienten Lösungen."
-    
+
   },
   {
     id: 7,
     imagem: "/assets/duravit-logo.jpg",
     nome: "Duravit",
     descricao: "Gegründet 1817 in Hornberg im Schwarzwald, ist Duravit AG heute einer der führenden internationalen Hersteller von Designerbädern. In über 130 Ländern vertreten, zeichnet sich das Unternehmen durch originelles Design, komfortsteigernde Technologie und höchste Qualität aus. In Zusammenarbeit mit renommierten Designern wie Philippe Starck, EOOS, Phoenix Design, Sieger Design, Kurt Merki Jr., Christian Werner, Matteo Thun und Cecilie Manz schafft Duravit exklusive Bäder, die die Lebensqualität nachhaltig verbessern."
-   
+
   },
   {
     id: 8,
     imagem: "/assets/geberit-logo.jpg",
     nome: "Geberit",
     descricao: "Die Geberit Gruppe, europäischer Marktführer für Sanitärprodukte, ist weltweit tätig und in den meisten europäischen Ländern stark vertreten. Sie liefert hochwertige Lösungen in der Sanitärtechnik und Keramik für Badezimmer. Mit 26 Produktionsstätten, darunter vier im Ausland, und Hauptsitz in Rapperswil-Jona, Schweiz, beschäftigt das Unternehmen rund 12.000 Mitarbeiter in 50 Ländern. Im Jahr 2021 erzielte Geberit einen Nettoumsatz von 3,5 Milliarden CHF. Die Geberit-Aktien sind an der SIX Swiss Exchange notiert und seit 2012 Teil des SMI (Swiss Market Index)."
-    
+
   },
   {
     id: 9,
     imagem: "/assets/grohe-logo.jpg",
     nome: "GROHE",
     descricao: "Mühelose, harmonische Badgestaltung: GROHE Cubeo und die neue Euro Ceramic bilden die perfekte Kombination. Das Duschsystem Rainshower Aqua Pure verwandelt Ihr Badezimmer in eine wahre Oase und bietet umfassende Individualisierungsmöglichkeiten und Stil. Maßgeschneiderter Luxus: Die Armaturen-Kollektion GROHE Allure Gravity definiert Individualität und exklusives Design neu."
-    
+
   },
   {
     id: 10,
     imagem: "/assets/grundfos-logo.jpg",
     nome: "GRUNDFOS",
     descricao: "GRUNDFOS bietet einige der effizientesten Pumpen der Welt und sorgt für Komfort und Nachhaltigkeit in Wohnräumen. Das Unternehmen entwickelt Lösungen für Heizung, HLK, Warmwasser, Drucksysteme, Entwässerung und Abwasser. Mit über 19.000 Mitarbeitern produziert und vermarktet es jährlich Millionen von Pumpen und verbindet Innovation, Verantwortung und Umweltbewusstsein."
-   
+
   },
   {
     id: 11,
@@ -96,21 +96,21 @@ const parceiros = [
     imagem: "/assets/kaldewei-logo.jpg",
     nome: "KALDEWEI",
     descricao: "KALDEWEI ist ein deutsches Familienunternehmen mit über 100 Jahren Tradition in Badlösungen, das modernen Luxus mit Nachhaltigkeit kombiniert. Das Portfolio umfasst Badewannen, Duschflächen und Waschbecken aus hochwertigem Stahl-Emaille und bietet elegantes Design, Langlebigkeit und 100 % Kreislauffähigkeit. 2021 wurde die KALDEWEI Limited Edition Nature Protect aus CO₂-armen Stahl eingeführt, um den CO₂-Fußabdruck zu reduzieren. Das Unternehmen unterstützt zudem das WWF Marine Conservation Program und engagiert sich für Umwelt und kommende Generationen."
-  
+
   },
   {
     id: 13,
     imagem: "/assets/laufen-logo.jpg",
     nome: "LAUFEN",
     descricao: "Seit 1892 schafft der Schweizer Hersteller LAUFEN Badezimmerwelten, die Körper und Seele nähren. Mit langer Tradition in hochwertigem Handwerk fördert das Unternehmen eine ganzheitliche Badkultur, die auf Nachhaltigkeit, exzellentes Design, Innovation und Technik setzt. Das Badezimmer wird als Lebensraum betrachtet, mit umfassenden Lösungen wie Keramik, Armaturen, Badewannen, Duschwannen, Möbeln, Spiegeln und Installationssystemen, alle mit innovativer, einzigartiger und ansprechender Ästhetik."
-    
+
   },
   {
     id: 14,
     imagem: "/assets/maico-logo.jpg",
     nome: "MAICO",
     descricao: "MAICO bietet ein breites Spektrum hochwertiger Lüftungslösungen für unterschiedliche Anwendungen. Als Spezialist für moderne Lösungen reicht das Angebot von kleinen Wohnbad-Lüftern bis hin zu komplexen Systemen für mehrstöckige Gebäude. Zudem werden kontrollierte Lüftung mit Wärmerückgewinnung, industrielle Lösungen, explosionsgeschützte Ventilatoren und neue Luftfiltergeräte zur Entfernung von Viren und Bakterien in öffentlichen Räumen angeboten. MAICO liefert für jede Anforderung eine professionelle Lösung."
-   
+
   },
   {
     id: 15,
@@ -222,8 +222,8 @@ const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       entry.target.classList.add("show");
-    }else {
-      entry.target.classList.remove("show"); 
+    } else {
+      entry.target.classList.remove("show");
     }
   });
 });
@@ -232,13 +232,13 @@ const animatedElements = document.querySelectorAll(".fade-in, .slide-left, .slid
 
 animatedElements.forEach(el => observer.observe(el));
 
-function openButtonAbout(){
+function openButtonAbout() {
   document.getElementById("btn-about").onclick = () => {
-      window.location.href = "aboutUs.html";
-    };
+    window.location.href = "aboutUs.html";
+  };
 }
-function openButtonService(){
+function openButtonService() {
   document.getElementById("btn-seeMore").onclick = () => {
-      window.location.href = "services.html";
-    };
+    window.location.href = "services.html";
+  };
 }
