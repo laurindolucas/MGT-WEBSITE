@@ -128,16 +128,18 @@
         width: 100%;
         height: 60px;
         justify-content: space-between;
+        padding: 0 15px;
         
-        background: rgba(0, 0, 0, 0.4);
+        background: rgba(0, 0, 0, 0.9);
         border-radius: 0;
         left: 0;
+        top: 0;              /* colada no topo */
+        margin-top: 0;       /* remove espaço */
         transform: none;
     }
 
     #nav-logo {
         width: 60px;
-        margin: 0 auto;
     }
 
     .nav-links {
@@ -147,7 +149,7 @@
         height: calc(100vh - 60px);
         justify-content: flex-start;
         padding-top: 40px;
-        background: rgba(0, 0, 0, 0.9);
+        background: rgba(0, 0, 0, 0.95);
         border-radius: 0;
     }
 
@@ -155,6 +157,8 @@
         font-size: 20px;
         color: #fff;
         text-align: center;
+        padding: 15px 0;
+        width: 100%;
     }
 
     .nav-links a:hover {
@@ -169,7 +173,7 @@
 @media (max-width: 360px) {
     .nav-bar {
         height: 55px;
-        padding: 0 15px;
+        padding: 0 10px;
     }
 
     .hamburger {
